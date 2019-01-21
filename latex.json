@@ -1,0 +1,105 @@
+{
+	// Place your snippets for latex here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Start": {
+		"prefix": "start_article",
+		"body": [
+			"\\documentclass[12pt]{article}",
+			"\\usepackage{amsfonts}",
+			"\\usepackage{fancyhdr}",
+			"\\usepackage{comment}",
+			"\\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2.2cm, right=2.2cm]{geometry}",
+			"\\usepackage{times}",
+			"\\usepackage{amsmath}",
+			"\\usepackage{changepage}",
+			"\\usepackage{amssymb}",
+			"\\usepackage{graphicx}"
+		]
+	},
+	"InputEnc": {
+		"prefix": "inputenc",
+		"body": [
+			"\\usepackage[english]{babel}",
+			"\\usepackage[utf8x]{inputenc}",
+			"\\usepackage[T1]{fontenc}"
+		]
+	},
+	"documentclass": {
+		"prefix": "documentclass",
+		"body": [
+			"\\documentclass[a4paper]{article}"
+		]
+	},
+	"Title": {
+		"prefix": "title",
+		"body": [
+			"\\title{${1:title}}\r\n\\author{Naranjo Robledo Carlos $2}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n$0\r\n\\end{document}"
+		]
+	},
+	"Imagen": {
+		"prefix": "imagen",
+		"body": [
+			"\\begin{figure}\r\n\\centering\r\n\\includegraphics[width=0.3\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}{2:descripcion}}\r\n\\end{figure}"
+		]
+	},
+	"Contenido": {
+		"prefix": "indice",
+		"body": [
+			"\\tableofcontents"
+		]
+	},
+	"Bibliografia": {
+		"prefix": "bibliografia",
+		"body": [
+			"\\begin{thebibliography}{${1:n cites}}\r\n\\bibitem{${2:cite}}\r\n$0\r\n\\end{thebibliography}"
+		]
+	},"Texto tipo code": {
+		"prefix": "code", 
+		"body": [
+		"\\texttt{$0}"
+		]
+	},"Black font": {
+		"prefix": "black", 
+		"body": [
+		"\\textbf{$0}"
+		]
+	},"Paquete referencias": {
+		"prefix": "referencias", 
+		"body": [
+		"\\usepackage[colorlinks=true, allcolors=blue]{hyperref}"
+		]
+	}
+	,"Color Code Style": {
+		"prefix": "code_style", 
+		"body": [
+		"\\usepackage{code_style}"
+		]
+	},"Nuevo Comando": {
+		"prefix": "newcommand", 
+		"body": [
+		"\\newcommand{${1:name}}{\r\n $0 \r\n}"
+		]
+	},"Article": {
+		"prefix": "article", 
+		"body": [
+		"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\end{document}"
+		]
+	},"Example Code": {
+		"prefix": "example-code", 
+		"body": [
+		"\\begin{scriptsize}\r\n\\estilo${1:Lenguaje}\r\n\\begin{lstlisting}[caption={${2:descripcion}}, label=lst:${3:lenguaje}code]\r\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
+		]
+	}
+}
