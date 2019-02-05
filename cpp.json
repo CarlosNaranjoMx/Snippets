@@ -1,0 +1,9 @@
+{
+	//recordar que en c las listas son vector, y los parametros de los metodos cambian
+	"Map": {
+		"prefix": "map_sin_orden", 
+		"body": [
+		"unorderedmap<${1:tipo1},${2:tipo2}> ${3:nombre};"
+		]
+	}
+}

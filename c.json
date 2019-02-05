@@ -1,0 +1,8 @@
+{
+	"Printf": {
+		"prefix": "printf", 
+		"body": [
+		"printf(\"$1\",$2)"
+		]
+	}
+}

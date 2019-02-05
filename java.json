@@ -81,6 +81,21 @@
 		"body": [
 		"System.out.print($1);"
 		]
+	},"Map": {
+		"prefix": "map", 
+		"body": [
+		"Map<${1:tipo}> ${2:nombre} = new HashMap<>();"
+		]
+	},"Exception": {
+		"prefix": "ilegalargument", 
+		"body": [
+		"throw new IllegalArgumentException(\"$1\");"
+		]
+	},"Map": {
+		"prefix": "containsKey", 
+		"body": [
+		"${1:nombre}.containsKey(${2:llave})"
+		]
 	}
 
 }

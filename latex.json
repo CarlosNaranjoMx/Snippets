@@ -48,10 +48,16 @@
 			"\\title{${1:title}}\r\n\\author{Naranjo Robledo Carlos $2}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n$0\r\n\\end{document}"
 		]
 	},
+	,"Paquete Imagen": {
+		"prefix": "imagen_package", 
+		"body": [
+		"\\usepackage{graphicx}"
+		]
+	}
 	"Imagen": {
 		"prefix": "imagen",
 		"body": [
-			"\\begin{figure}\r\n\\centering\r\n\\includegraphics[width=0.3\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}{2:descripcion}}\r\n\\end{figure}"
+			"\\begin{figure}[h]\r\n\\centering\r\n\\includegraphics[width=0.3\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}${2:descripcion}}\r\n\\end{figure}"
 		]
 	},
 	"Contenido": {
@@ -100,6 +106,16 @@
 		"prefix": "example-code", 
 		"body": [
 		"\\begin{scriptsize}\r\n\\estilo${1:Lenguaje}\r\n\\begin{lstlisting}[caption={${2:descripcion}}, label=lst:${3:lenguaje}code]\r\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
+		]
+	},"Enumerate": {
+		"prefix": "enumerate", 
+		"body": [
+		"\\begin{enumerate}\r\n    $1\r\n\\end{enumerate}"
+		]
+	},"Black font": {
+		"prefix": "bf", 
+		"body": [
+		"\\textbf{$0}"
 		]
 	}
 }
