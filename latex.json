@@ -1,5 +1,20 @@
 {
-	"Start": {
+	//***************(Empezar Documento)***************//
+	"InputEnc": {
+		"prefix": "inputenc",
+		"body": [
+			"\\usepackage[english]{babel}",
+			"\\usepackage[utf8x]{inputenc}",
+			"\\usepackage[T1]{fontenc}"
+		]
+	}
+	,"documentclass": {
+		"prefix": "documentclass",
+		"body": [
+			"\\documentclass[a4paper]{article}"
+		]
+	}
+	,"Start": {
 		"prefix": "start_article",
 		"body": [
 			"\\documentclass[12pt]{article}",
@@ -13,114 +28,112 @@
 			"\\usepackage{amssymb}",
 			"\\usepackage{graphicx}"
 		]
-	},
-	"InputEnc": {
-		"prefix": "inputenc",
-		"body": [
-			"\\usepackage[english]{babel}",
-			"\\usepackage[utf8x]{inputenc}",
-			"\\usepackage[T1]{fontenc}"
-		]
-	},
-	"documentclass": {
-		"prefix": "documentclass",
-		"body": [
-			"\\documentclass[a4paper]{article}"
-		]
-	},
-	"Title": {
+	}
+	,"Title": {
 		"prefix": "title",
 		"body": [
 			"\\title{${1:title}}\r\n\\author{Naranjo Robledo Carlos $2}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n$0\r\n\\end{document}"
 		]
-	},
-	,"Paquete Imagen": {
-		"prefix": "imagen_package", 
+	}
+	,"Article": {
+		"prefix": "article", 
 		"body": [
-		"\\usepackage{graphicx}"
+			"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\end{document}"
 		]
 	}
-	"Imagen": {
+	//***************(Imagenes)***************//
+	,"Paquete Imagen": {
+		"prefix": "pimagen", 
+		"body": [
+			"\\usepackage{graphicx}"
+		]
+	}
+	,"Imagen": {
 		"prefix": "imagen",
 		"body": [
 			"\\begin{figure}[h]\r\n\\centering\r\n\\includegraphics[width=0.3\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}${2:descripcion}}\r\n\\end{figure}"
 		]
-	},
-	"Contenido": {
+	}
+	,"Contenido": {
 		"prefix": "indice",
 		"body": [
 			"\\tableofcontents"
 		]
-	},
-	"Bibliografia": {
+	}
+	//***************(Bibliografía)***************//
+	,"Bibliografia": {
 		"prefix": "bibliografia",
 		"body": [
 			"\\begin{thebibliography}{${1:n cites}}\r\n\\bibitem{${2:cite}}\r\n$0\r\n\\end{thebibliography}"
 		]
-	},"Texto tipo code": {
-		"prefix": "code", 
+	}
+	,"Paquete referencias": {
+		"prefix": "preferencias", 
 		"body": [
-		"\\texttt{$0}"
-		]
-	},"Black font": {
-		"prefix": "black", 
-		"body": [
-		"\\textbf{$0}"
-		]
-	},"Paquete referencias": {
-		"prefix": "referencias", 
-		"body": [
-		"\\usepackage[colorlinks=true, allcolors=blue]{hyperref}"
+			"\\usepackage[colorlinks=true, allcolors=blue]{hyperref}"
 		]
 	}
-	,"Color Code Style": {
-		"prefix": "code_style", 
-		"body": [
-		"\\usepackage{code_style}"
-		]
-	},"Nuevo Comando": {
+	,"Nuevo Comando": {
 		"prefix": "newcommand", 
 		"body": [
-		"\\newcommand{${1:name}}{\r\n $0 \r\n}"
+			"\\newcommand{${1:name}}{\r\n $0 \r\n}"
 		]
-	},"Article": {
-		"prefix": "article", 
+	}
+	//***************(Listings)***************//
+	//nota crear el enlace duro para sincronizar el
+	//archivo de configuraciones de los listings
+	,"Color Code Style": {
+		"prefix": "pcode", 
 		"body": [
-		"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\end{document}"
+			"\\usepackage{code_style}"
 		]
-	},"Example Code": {
-		"prefix": "example-code", 
+	}
+	,"Example Code": {
+		"prefix": "ecode", 
 		"body": [
-		"\\begin{scriptsize}\r\n\\estilo${1:Lenguaje}\r\n\\begin{lstlisting}[caption={${2:descripcion}}, label=lst:${3:lenguaje}code]\r\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
+			"\\begin{scriptsize}\r\n\\estilo${1:Lenguaje}\r\n\\begin{lstlisting}[caption={${2:descripcion}}, label=lst:${3:lenguaje}code]\r\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
 		]
-	},"Enumerate": {
+	}
+	//***************(Enumerate)***************//
+	,"Enumerate": {
 		"prefix": "enumerate", 
 		"body": [
-		"\\begin{enumerate}\r\n    $1\r\n\\end{enumerate}"
+			"\\begin{enumerate}\r\n    $1\r\n\\end{enumerate}"
 		]
 	}
 	//***************(Tipografías)***************//
+	,"Black font": {
+		"prefix": "black", 
+		"body": [
+			"\\textbf{$0}"
+		]
+	}
 	,"black font": {
 		"prefix": "bf", 
 		"body": [
-		"\\textbf{$1}"
+			"\\textbf{$1}"
 		]
 	}
-	//********************************************//
+	,"Texto tipo code": {
+		"prefix": "code", 
+		"body": [
+			"\\texttt{$0}"
+		]
+	}
 	//***************(Comandos de Linux)***************//
 	,"Other comands": {
 		"prefix": "comandos", 
 		"body": [
-		"\\section{Comandos usados} \n \\begin{enumerate} \n    \\item $1 \n \\end{enumerate}"
+			"\\section{Comandos usados} \n \\begin{enumerate} \n    \\item $1 \n \\end{enumerate}"
 		]
 	}
-	//************************************************//
+	//***************(Matematicas)***************//
 	,"Math": {
 		"prefix": "math", 
 		"body": [
 		"$ $1 $"
-		]
-	}
+	]
+}
 	//***************(Comandos tabular)***************//
 	,"Import tabular": {
 		"prefix": "ptabular", 
@@ -128,6 +141,17 @@
 		"\\usepackage{tabularx}"
 		]
 	}
-	//************************************************//
-
+	//***************(Section)***************//
+	,"Section": {
+		"prefix": "section", 
+		"body": [
+		"\\section{$1}"
+		]
+	}
+	,"Subsection": {
+		"prefix": "subsection", 
+		"body": [
+		"\\subsection{$1}"
+		]
+	}
 }
