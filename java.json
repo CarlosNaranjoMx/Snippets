@@ -20,27 +20,40 @@
 		" */"
 		]
 	}
+	//***************(Imports)***************//
+	,"javautil": {
+		"prefix": "util", 
+		"body": [
+		"import java.util.$1;"
+		]
+	}
+
 	//***************(Clases)***************//
 	,"Class": {
 		"prefix": "class", 
 		"body": [
 		"public class $1{ \n  $2\n}"
 		]
-	},
-
-	"Start con Constructor": {
+	}
+	,"Start con Constructor": {
 		"prefix": "start", 
 		"body": [
 		" \/** @author Naranjo Robledo Carlos *\/ \r\npublic class {\r\n    \/**\r\n     * $4\r\n     *\/\r\n    $1(){\r\n        $2\r\n    }$3\r\n    \r\n}"
 		]
-	},
-
-	"Main": {
+	}
+	,"Main": {
 		"prefix": "main", 
 		"body": [
 		"public static void main(String[] args){",
 			"$1",
 		"}"
+		]
+	}
+	//***************(Funciones)***************//
+	,"Boolean": {
+		"prefix": "fboolean", 
+		"body": [
+		"boolean $1(){\r\n    return $2;\r\n}"
 		]
 	}
 	//***************(Prints)***************//
@@ -63,11 +76,17 @@
 			"throw new IllegalArgumentException(\"$1\");"
 		]
 	}
-	//***************(Mapas)***************//
+	//***************(Hashes/Mapas)***************//
 	,"Mapa": {
 		"prefix": "map", 
 		"body": [
 		"Map<${1:tipo}> ${2:nombre} = new HashMap<>();"
+		]
+	}
+	,"Put": {
+		"prefix": "put", 
+		"body": [
+		"$1.put($2,$3)"
 		]
 	}
 	,"Map": {
