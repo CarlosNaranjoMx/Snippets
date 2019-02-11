@@ -133,7 +133,37 @@
 		"body": [
 		"$ $1 $"
 	]
-}
+	}
+	,"Paquete math": {
+		"prefix": "pmath", 
+		"body": [
+		"\\usepackage{amsmath}"
+		]
+	}
+	,"Division": {
+		"prefix": "div", 
+		"body": [
+		"\\frac{$1}{$2}"
+		]
+	}
+	,"Flecha": {
+		"prefix": "dflecha", 
+		"body": [
+		"\\Rightarrow"
+		]
+	}
+	,"Paquete mas math": {
+		"prefix": "p2math", 
+		"body": [
+		"\\usepackage{amssymb}"
+		]
+	}
+	,"No flecha derecha": {
+		"prefix": "ndflecha", 
+		"body": [
+		"\\nRightarrow"
+		]
+	}
 	//***************(Comandos tabular)***************//
 	,"Import tabular": {
 		"prefix": "ptabular", 
@@ -152,6 +182,12 @@
 		"prefix": "subsection", 
 		"body": [
 		"\\subsection{$1}"
+		]
+	}
+	,"Sububsection": {
+		"prefix": "sub2", 
+		"body": [
+		"\\subsubsection{$1}"
 		]
 	}
 }
