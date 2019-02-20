@@ -101,6 +101,12 @@
 			"\\begin{enumerate}\r\n    $1\r\n\\end{enumerate}"
 		]
 	}
+	,"Item code": {
+		"prefix": "icode", 
+		"body": [
+		"\\item \\texttt{$1}"
+		]
+	}
 	//***************(Tipografías)***************//
 	,"Black font": {
 		"prefix": "black", 
@@ -169,6 +175,18 @@
 		"prefix": "ptabular", 
 		"body": [
 		"\\usepackage{tabularx}"
+		]
+	}
+	,"Tabular": {
+		"prefix": "tabular", 
+		"body": [
+		"\\begin{tabular}{} \n \\end{tabular}"
+		]
+	}
+	,"esacio en celdas": {
+		"prefix": "cespacio", 
+		"body": [
+		"\\parbox[t]{$1cm}{$2\\$3}"
 		]
 	}
 	//***************(Section)***************//
