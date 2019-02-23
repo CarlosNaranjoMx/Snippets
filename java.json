@@ -102,4 +102,44 @@
 		"\/**\r\n * $1\r\n *\/\r\npublic class $1 implements Runnable{\r\n    \r\n    @Override\r\n    public void run() {\r\n\r\n    }\r\n   \r\n}"
 		]
 	}
+	//**************(Reader and writer)**************//
+	,"Paquete read": {
+		"prefix": "pread", 
+		"body": [
+		"import java.io.BufferedReader \n import java.io.FileReader; \n ${1:import java.io.IOException;}"
+		]
+	}
+	,"Paquete write": {
+		"prefix": "pwrite", 
+		"body": [
+		"import java.io.BufferedWriter; \n import java.io.FileWriter; \n ${1:import java.io.IOException;}"
+		]
+	}
+	,"Reader": {
+		"prefix": "read", 
+		"body": [
+		"BufferedReader reader;\r\ntry {\r\n    reader = new BufferedReader(new FileReader(\r\n            \"\/Users\/pankaj\/Downloads\/myfile.txt\"));\r\n    String line = reader.readLine();\r\n    while (line != null) {\r\n        System.out.println(line);\r\n        \/\/ read next line\r\n        line = reader.readLine();\r\n    }\r\n    reader.close();\r\n} catch (IOException e) {\r\n    e.printStackTrace();\r\n}"
+		]
+	}
+	//llenado de un arreglo de acuerdo a un separador
+	,"Split": {
+		"prefix": "split", 
+		"body": [
+		"String[]${1:nombre}=${2:string}.split($3)${4:;}"
+		]
+	}
+	//**************(String-Int)**************//
+	,"String-Int": {
+		"prefix": "strint", 
+		"body": [
+		"Integer.parseInt($1)${2:;}"
+		]
+	}
+	//**************(Integer-String,3formas)**************//
+	,"Int-String": {
+		"prefix": "intstr", 
+		"body": [
+		"$1+\"\"${2:;}"
+		]
+	}
 }

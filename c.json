@@ -2,7 +2,68 @@
 	"Printf": {
 		"prefix": "printf", 
 		"body": [
-		"printf(\"$1\",$2)"
+		"printf(\"$1\"${2:,})${3:;}"
 		]
 	}
+	//**************(Archivos iniciales)**************//
+	,"Start": {
+		"prefix": "start", 
+		"body": [
+		"#include <stdio.h> \n int main(){ \n     return 0; \n}"
+		]
+	}
+	//**************(Entrada)**************//
+	,"Entrada Escaner": {
+		"prefix": "entrada", 
+		"body": [
+		"gets($1);"
+		]
+	}
+	// se deben declarar antes las variables
+	//primero no comas, despues todo comas
+	// %s- string
+	// %d - entero
+	,"Scaner": {
+		"prefix": "scaner", 
+		"body": [
+		"scanf(\"%${1:s}\",${2:str});"
+		]
+	}
+	//**************(Arreglos)**************//
+	//tam de 100 
+	,"Arreglo": {
+		"prefix": "astring", 
+		"body": [
+		"char ${1:nombre} [${2:tam}];"
+		]
+	}
+	//**************(Cadenas)**************//
+	,"paquete cadenas": {
+		"prefix": "pstring", 
+		"body": [
+		"#include<string.h>"
+		]
+	}
+	,"Compare": {
+		"prefix": "cstr", 
+		"body": [
+		"strcmp(${1:nombre1},${2:nombre2})${3:;}"
+		]
+	}
+	//**************(Llamadas al sistema)**************//
+	,"paquete llamada al sistema": {
+		"prefix": "psistema", 
+		"body": [
+		"#include<sys/syscall.h>"
+		]
+	}
+	//**************(Sistema de Archivos)**************//
+	,"p sistema de archivos": {
+		"prefix": "parchivos", 
+		"body": [
+		"#include<conio.h>\n#include<dir.h>"
+		]
+	}
+	//**************(Structs y tipos propios)**************//
+	// struct [tipo] <nombre>;
 }
