@@ -142,4 +142,17 @@
 		"$1+\"\"${2:;}"
 		]
 	}
+	//**************(List)**************//
+	,"Lisr": {
+		"prefix": "plist", 
+		"body": [
+		"import java.util.LinkedList;"
+		]
+	}
+	,"List": {
+		"prefix": "list", 
+		"body": [
+		"LinkedList<$1> $2 = new LinkedList<>();"
+		]
+	}
 }
