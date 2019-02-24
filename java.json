@@ -106,7 +106,7 @@
 	,"Paquete read": {
 		"prefix": "pread", 
 		"body": [
-		"import java.io.BufferedReader \n import java.io.FileReader; \n ${1:import java.io.IOException;}"
+		"import java.io.BufferedReader;\nimport java.io.FileReader;\n${1:import java.io.IOException;}"
 		]
 	}
 	,"Paquete write": {
@@ -118,7 +118,7 @@
 	,"Reader": {
 		"prefix": "read", 
 		"body": [
-		"BufferedReader reader;\r\ntry {\r\n    reader = new BufferedReader(new FileReader(\r\n            \"\/Users\/pankaj\/Downloads\/myfile.txt\"));\r\n    String line = reader.readLine();\r\n    while (line != null) {\r\n        System.out.println(line);\r\n        \/\/ read next line\r\n        line = reader.readLine();\r\n    }\r\n    reader.close();\r\n} catch (IOException e) {\r\n    e.printStackTrace();\r\n}"
+		"BufferedReader reader;\r\ntry {\r\n    reader = new BufferedReader(new FileReader(\r\n            \"$1\"));\r\n    String line = reader.readLine();\r\n    while (line != null) {\r\n        System.out.println(line);\r\n        \/\/ read next line\r\n        line = reader.readLine();\r\n    }\r\n    reader.close();\r\n} catch (IOException e) {\r\n    e.printStackTrace();\r\n}"
 		]
 	}
 	//llenado de un arreglo de acuerdo a un separador
