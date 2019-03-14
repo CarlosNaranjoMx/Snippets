@@ -133,12 +133,24 @@
 			"\\section{Comandos usados} \n \\begin{enumerate} \n    \\item $1 \n \\end{enumerate}"
 		]
 	}
+	,"Directorios": {
+		"prefix": "directorios", 
+		"body": [
+		"\\section{directorios} \n \\begin{enumerate} \n    \\item $1 \n \\end{enumerate}"
+		]
+	}
 	//***************(Matematicas)***************//
 	,"Math": {
 		"prefix": "math", 
 		"body": [
 		"$ $1 $"
-	]
+		]
+	}
+	,"Math center": {
+		"prefix": "cmath", 
+		"body": [
+		"$$ $1 $$"
+		]
 	}
 	,"Paquete math": {
 		"prefix": "pmath", 
@@ -152,12 +164,19 @@
 		"\\frac{$1}{$2}"
 		]
 	}
+	,"Exponente": {
+		"prefix": "exp", 
+		"body": [
+		"^{$1}"
+		]
+	}
 	,"Flecha": {
 		"prefix": "dflecha", 
 		"body": [
 		"\\Rightarrow"
 		]
 	}
+	// Segundo paquete de math
 	,"Paquete mas math": {
 		"prefix": "p2math", 
 		"body": [
@@ -170,6 +189,19 @@
 		"\\nRightarrow"
 		]
 	}
+	//fuentes de matematicas
+	,"Paquete Fuentes Matematicas": {
+		"prefix": "pmfonts", 
+		"body": [
+		"\\usepackage{amsfonts}"
+		]
+	}
+	,"Mathbb": {
+		"prefix": "mfont", 
+		"body": [
+		"\\mathbb{$1}"
+		]
+	}
 	//***************(Comandos tabular)***************//
 	,"Import tabular": {
 		"prefix": "ptabular", 
@@ -180,7 +212,7 @@
 	,"Tabular": {
 		"prefix": "tabular", 
 		"body": [
-		"\\begin{tabular}{} \n \\end{tabular}"
+		"\\begin{tabular}{} \n$1 \\end{tabular}"
 		]
 	}
 	,"esacio en celdas": {
@@ -193,7 +225,7 @@
 	,"Section": {
 		"prefix": "section", 
 		"body": [
-		"\\section{$1}"
+		"\\section{$1}\n$0"
 		]
 	}
 	,"Subsection": {
@@ -206,6 +238,26 @@
 		"prefix": "sub2", 
 		"body": [
 		"\\subsubsection{$1}"
+		]
+	}
+	,"Subsubsection": {
+		"prefix": "sub3", 
+		"body": [
+		"\\subsubsection{$1}"
+		]
+	}
+	//**************(Comentarios)**************//
+	,"Separador": {
+		"prefix": "separador", 
+		"body": [
+		"%%%%%%%%%%%%%%%($1)%%%%%%%%%%%%%%%"
+		]
+	}
+	//**************(Enumerate)**************//
+	,"Pkg enumerate": {
+		"prefix": "penumerate", 
+		"body": [
+		"\\usepackage{enumerate}"
 		]
 	}
 }

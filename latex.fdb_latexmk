@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1551637940 "/home/naranjo/.config/Code/User/snippets/latex.json" "/home/naranjo/.config/Code/User/snippets/latex.pdf" "latex" 1551637940
+  "/etc/texmf/web2c/texmf.cnf" 1548365946 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/home/naranjo/.config/Code/User/snippets/latex.aux" 1551637940 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/naranjo/.config/Code/User/snippets/latex.json" 1551637224 5204 83b6e46b733e6064da59e7bb4414fb58 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1548365992 3856280 b0367af1c6dcb37b848c5abeef5e2e44 ""
+  "latex.json" 1551637224 5204 83b6e46b733e6064da59e7bb4414fb58 ""
+  (generated)
+  "/home/naranjo/.config/Code/User/snippets/latex.log"
+  "latex.log"
+  "/home/naranjo/.config/Code/User/snippets/latex.pdf"

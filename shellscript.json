@@ -1,0 +1,17 @@
+{
+	//**************(Fors)**************//
+	"for": {
+		"prefix": "for", 
+		"body": [
+		"for i in `seq ${1:inicio} ${2:fin}`\ndo\n$3\ndone"
+		]
+	}
+	//**************(Concatenar cadenas)**************//
+	//**************(Acceso al Arreglo)**************//
+	,"arreglo": {
+		"prefix": "arreglo", 
+		"body": [
+		"#${1:nombre}[${2:indice}]"
+		]
+	}
+}

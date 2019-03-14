@@ -2,7 +2,7 @@
 	"Printf": {
 		"prefix": "printf", 
 		"body": [
-		"printf(\"$1\"${2:,})${3:;}"
+		"printf(\"$1\"${2:,}$3)${4:;}"
 		]
 	}
 	//**************(Archivos iniciales)**************//
@@ -27,6 +27,12 @@
 		"prefix": "scaner", 
 		"body": [
 		"scanf(\"%${1:s}\",${2:str});"
+		]
+	}
+	,"Scaner expresion regular": {
+		"prefix": "", 
+		"body": [
+		""
 		]
 	}
 	//**************(Arreglos)**************//
@@ -64,6 +70,11 @@
 		"#include<conio.h>\n#include<dir.h>"
 		]
 	}
-	//**************(Structs y tipos propios)**************//
-	// struct [tipo] <nombre>;
+	//**************(Include)**************//
+	,"Include": {
+		"prefix": "include", 
+		"body": [
+		"#include $1"
+		]
+	}
 }
