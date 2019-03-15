@@ -2,6 +2,7 @@
 	//**************(Diccionarios)**************//
 	// condicion booleana
 	// lectura y escritura con []
+	//escritura: como dic[valor]=llave
 	"Diccionario": {
 		"prefix": "in",
 		"body": [
@@ -26,4 +27,18 @@
 	//**************(Enumerate)**************//
 	// ejemplo enumerate inicia los indices e i
 	// for lett, i in enumerate(map(chr,range(65,91)),0):
+	//**************(Numpy)**************//
+	,"pkg numpy": {
+		"prefix": "pnumpy", 
+		"body": [
+		"import numpy as np"
+		]
+	}
+	//np.array([])
+	//np.reshape(n,(3,1))
+	//np.matrix(matriz)
+	//np.linalg.inv(matriz) inversa
+	//np.dot(a,b) multiplicacion de matrices a.dot(b)
+	//np.linalg.det(mtz) determinante
+
 }

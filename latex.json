@@ -79,6 +79,18 @@
 			"\\newcommand{${1:name}}{\r\n $0 \r\n}"
 		]
 	}
+	,"url": {
+		"prefix": "url", 
+		"body": [
+		"\\url{$1}"
+		]
+	}
+	,"BIbitem": {
+		"prefix": "bitem", 
+		"body": [
+		"\\bibitem{$1} \\url{$2}"
+		]
+	}
 	//***************(Listings)***************//
 	//nota crear el enlace duro para sincronizar el
 	//archivo de configuraciones de los listings
