@@ -91,6 +91,12 @@
 		"\\bibitem{$1} \\url{$2}"
 		]
 	}
+	,"Cite": {
+		"prefix": "cite", 
+		"body": [
+		"\\cite[${1:pagina}]{$2}"
+		]
+	}
 	//***************(Listings)***************//
 	//nota crear el enlace duro para sincronizar el
 	//archivo de configuraciones de los listings
@@ -117,6 +123,12 @@
 		"prefix": "icode", 
 		"body": [
 		"\\item \\texttt{$1}"
+		]
+	}
+	,"Enumeratec": {
+		"prefix": "cenumerate", 
+		"body": [
+		"\\begin{enumerate}[$1]\n$2\n\\end{enumerate}"
 		]
 	}
 	//***************(Tipografías)***************//

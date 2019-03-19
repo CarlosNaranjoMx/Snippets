@@ -7,7 +7,7 @@
 	// Placeholders with the same ids are connected.
 	// Example:
 	"Separador": {
-		"scope": "json,java,c",
+		"scope": "json,java,c,typescript",
 		"prefix": "separador",
 		"body": [
 			"//**************($1)**************//"

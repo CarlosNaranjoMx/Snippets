@@ -69,13 +69,20 @@
 		"System.out.print($1);"
 		]
 	}
-	//***************(Excepciones)***************//
+	//***************(Excepciones,Exeptions)***************//
 	,"Exception": {
 		"prefix": "ilegalargument", 
 		"body": [
 			"throw new IllegalArgumentException(\"$1\");"
 		]
 	}
+	,"ftry": {
+		"prefix": "ftry", 
+		"body": [
+		"try {\r\n                \r\n            } catch (Exception e) {\r\n            \r\n            }finally{\r\n                \r\n            }"
+		]
+	}
+	//NOTACION try(){}catch(){}
 	//***************(Hashes/Mapas)***************//
 	,"Mapa": {
 		"prefix": "map", 
@@ -153,6 +160,21 @@
 		"prefix": "list", 
 		"body": [
 		"LinkedList<$1> $2 = new LinkedList<>();"
+		]
+	}
+	//**************(Random)**************//
+	,"Pkg Random": {
+		"prefix": "prandom", 
+		"body": [
+		"import java.util.Random;"
+		]
+	}
+	//nextDouble [0,1]
+	//nextInt [0,limite]
+	,"rint": {
+		"prefix": "rint", 
+		"body": [
+		"Random rgenerator = new Random();\nrgenerator.nextInt(${1:limite});"
 		]
 	}
 }

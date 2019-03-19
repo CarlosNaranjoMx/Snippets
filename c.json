@@ -1,4 +1,5 @@
 {
+	//**************(Print,Imprimir)**************//
 	"Printf": {
 		"prefix": "printf", 
 		"body": [
@@ -12,7 +13,7 @@
 		"#include <stdio.h> \n int main(){ \n     return 0; \n}"
 		]
 	}
-	//**************(Entrada)**************//
+	//**************(Scaner,Entrada)**************//
 	,"Entrada Escaner": {
 		"prefix": "entrada", 
 		"body": [
@@ -43,6 +44,7 @@
 		"char ${1:nombre} [${2:tam}];"
 		]
 	}
+	//double array[5] = {};
 	//**************(Cadenas)**************//
 	,"paquete cadenas": {
 		"prefix": "pstring", 
@@ -77,4 +79,5 @@
 		"#include $1"
 		]
 	}
+	//**************(Struct)**************//
 }

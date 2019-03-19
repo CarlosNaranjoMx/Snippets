@@ -8,10 +8,14 @@
 	}
 	//**************(Concatenar cadenas)**************//
 	//**************(Acceso al Arreglo)**************//
+	//bash
+	//declaracion nombre=()
+	//en los for ${arr[*]}
 	,"arreglo": {
 		"prefix": "arreglo", 
 		"body": [
 		"#${1:nombre}[${2:indice}]"
 		]
 	}
+	//**************(Bashrc)**************//
 }
