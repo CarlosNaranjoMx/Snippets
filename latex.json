@@ -147,7 +147,7 @@
 	,"Texto tipo code": {
 		"prefix": "code", 
 		"body": [
-			"\\texttt{$0}"
+			"\\texttt{$1}"
 		]
 	}
 	//***************(Comandos de Linux)***************//

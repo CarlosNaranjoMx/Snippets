@@ -6,6 +6,12 @@
 		"printf(\"$1\"${2:,}$3)${4:;}"
 		]
 	}
+	,"Fprmat print": {
+		"prefix": "fprint", 
+		"body": [
+		"printf(\"$1%d\\n\",$2);"
+		]
+	}
 	//**************(Archivos iniciales)**************//
 	,"Start": {
 		"prefix": "start", 
@@ -37,7 +43,8 @@
 		]
 	}
 	//**************(Arreglos)**************//
-	//tam de 100 
+	//tam de 100
+	//int arr[2] = {0,1};
 	,"Arreglo": {
 		"prefix": "astring", 
 		"body": [
@@ -80,4 +87,31 @@
 		]
 	}
 	//**************(Struct)**************//
+	//creacion como un arreglo de cosas
+	//**************(Threads)**************//
+	//bandera al compilador -pthread
+	,"pkg thread": {
+		"prefix": "pthread", 
+		"body": [
+		"#include <pthread.h>"
+		]
+	}
+	//**************(Apuntadores)**************//
+	// volverlo apuntador &
+
+	//**************(FUnciones)**************//
+	// espera un apuntador function(struct algo *cosa) 
+
+	//**************(Malloc)**************//
+	,"pkg malloc": {
+		"prefix": "pmalloc", 
+		"body": [
+		"#include <stdlib.h>"
+		]
+	}
+
+	//**************(Concurrente)**************//
+
+	//**************(Casting)**************//
+	//strtol(cadena,parte2,numerode enteros)
 }
