@@ -1,0 +1,8 @@
+{
+	"Block": {
+		"prefix": "block", 
+		"body": [
+		"~~~\n$1\n~~~"
+		]
+	}
+}

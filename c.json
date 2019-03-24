@@ -114,4 +114,12 @@
 
 	//**************(Casting)**************//
 	//strtol(cadena,parte2,numerode enteros)
+
+	//**************(control)**************//
+	,"elseif": {
+		"prefix": "elseif", 
+		"body": [
+		"}else if(){"
+		]
+	}
 }
