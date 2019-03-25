@@ -1,4 +1,18 @@
 {
+	//**************(JAVA)**************//
+	//constructores, getters
+	//publicos operaciones (interfaces solo mantienen estos)
+	//privados azucar sintactica de operaciones
+	//privados, efectos no necesarios para que funcione
+
+	//metodos staticos, que funcionan siempre (sin el constructor)
+	//facil trabajar con ellos dentro de clases
+
+	//metodos con estructura como de clase
+	//metodos con algunos resultados de Ejemplo
+
+	//transformar getters y setters en otros metodos como isEmpty()
+
 	//***************(Comentarios)***************//
 	"Comentario Multilinea con Asterisco": {
 		"prefix": "comast",
@@ -177,4 +191,6 @@
 		"Random rgenerator = new Random();\nrgenerator.nextInt(${1:limite});"
 		]
 	}
+	//**************(Threads)**************//
+	//new Thread (() -> addProc(d)).start();
 }
