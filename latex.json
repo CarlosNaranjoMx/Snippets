@@ -1,4 +1,7 @@
 {
+	//**************(LATEX)**************//
+	// caracteres reservados: $ _ & #
+
 	//***************(Empezar Documento)***************//
 	"InputEnc": {
 		"prefix": "inputenc",
