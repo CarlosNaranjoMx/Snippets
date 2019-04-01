@@ -122,6 +122,12 @@
 			"\\begin{enumerate}\r\n    $1\r\n\\end{enumerate}"
 		]
 	}
+	,"benumerate": {
+		"prefix": "benumerate", 
+		"body": [
+		"\\begin{enumerate}[$ \\bullet $]\n    $1\n\\end{enumerate}"
+		]
+	}
 	,"Item code": {
 		"prefix": "icode", 
 		"body": [
