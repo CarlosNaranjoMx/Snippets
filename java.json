@@ -1,6 +1,7 @@
 {
 	//**************(JAVA)**************//
-	//constructores, getters
+	//constructores, getters, 
+	//atributos dibujo general, atributo acciones
 	//publicos operaciones (interfaces solo mantienen estos)
 	//privados azucar sintactica de operaciones
 	//privados, efectos no necesarios para que funcione
@@ -43,6 +44,12 @@
 	}
 
 	//***************(Clases)***************//
+	//Clases Anidadas
+	// estaticas y no estatias
+	//no estaticas internas tienen acceso a todo
+	// se acceden con punto en la externa A.B
+	//internas de metodo(?)
+	//internas anonimas
 	,"Class": {
 		"prefix": "class", 
 		"body": [
@@ -192,5 +199,25 @@
 		]
 	}
 	//**************(Threads)**************//
+	//extender/implementar t r y sobreescribir el metodo run
+	// no se ejecuta indefinidamente
+	// run no es un metodo estatico
 	//new Thread (() -> addProc(d)).start();
+	// long
+	,"Threadid": {
+		"prefix": "idthread", 
+		"body": [
+		"Thread.currentThread.getId();"
+		]
+	}
+	//**************(Locks)**************//
+	,"pkg locks": {
+		"prefix": "plocks", 
+		"body": [
+		"import java.util.concurrent.locks.*;"
+		]
+	}
+	//Thread.sleep() ?
+	// lock.lock();
+	// try{}catch(){}finally{lock.unlock();}
 }
