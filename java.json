@@ -204,10 +204,15 @@
 	// run no es un metodo estatico
 	//new Thread (() -> addProc(d)).start();
 	// long
+
+	//creas un hilo con un objeto runnable y le haces run
+	//modificar el objeto sera modificar el hilo
+
+	//con this podemos ejecutar algun metodo del objeto en lugar de run()
 	,"Threadid": {
 		"prefix": "idthread", 
 		"body": [
-		"Thread.currentThread.getId();"
+		"Thread.currentThread().getId();"
 		]
 	}
 	//**************(Locks)**************//
@@ -220,4 +225,14 @@
 	//Thread.sleep() ?
 	// lock.lock();
 	// try{}catch(){}finally{lock.unlock();}
+
+	//**************(Test junit)**************//
+	// import org.junit.Test;
+	// import org.junit.Assert;
+	// public class AppTest {
+    // 	@Test
+    // 	public void testApp() {
+    //     	Assert.assertTrue( true );
+    // 	}
+	// }
 }

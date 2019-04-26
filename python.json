@@ -8,11 +8,11 @@
 	//**************(Diccionarios,Dictionary)**************//
 	// condicion booleana
 	// lectura y escritura con []
-	//escritura: como dic[valor]=llave
+	//escritura: como dic[llave]=valor
 	"Diccionario": {
 		"prefix": "in",
 		"body": [
-		"${1:objeto} in ${2:diccionario}"
+		"${1:llave} in ${2:diccionario}"
 		]
 	}
 	//**************(Comments,comentarios)**************//
