@@ -61,9 +61,12 @@
 	// los imports de archivos ejecutan primero todo el archivo
 	// solo guardar las cosas en funciones evita que se ejecute codigo
 	// def __str__(self): representacion
-	// usar la notacion de from import *
+
+	// usar la notacion de from  (nombre de la clase) import * 
 	// NO METER FUNCIONES EN LAS CLASES
 	//MODOTODOCLASE, self.function en el constructor, convenciones de letras
+
+	//hacerlo en clases separadas hara que metas mas parametros a tus funciones
 	,"Init": {
 		"prefix": "init", 
 		"body": [
@@ -119,6 +122,14 @@
 		"prefix": "pregular", 
 		"body": [
 		"import re"
+		]
+	}
+
+	//**************(Random)**************//
+	,"random": {
+		"prefix": "random", 
+		"body": [
+		"random.randint(0,5)"
 		]
 	}
 }
