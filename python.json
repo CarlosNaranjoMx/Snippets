@@ -132,4 +132,13 @@
 		"random.randint(0,5)"
 		]
 	}
+
+	//**************(Input)**************//
+	,"input": {
+		"prefix": "input", 
+		"body": [
+		"$1 = int(input(\"$2\"))"
+		]
+	}
+
 }

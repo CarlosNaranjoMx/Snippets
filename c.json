@@ -46,7 +46,7 @@
 	//tam de 100
 	//int arr[2] = {0,1};
 	,"Arreglo": {
-		"prefix": "astring", 
+		"prefix": "achar", 
 		"body": [
 		"char ${1:nombre} [${2:tam}];"
 		]
