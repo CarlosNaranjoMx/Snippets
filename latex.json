@@ -54,7 +54,7 @@
 	,"Imagen": {
 		"prefix": "imagen",
 		"body": [
-			"\\begin{figure}[h]\r\n\\centering\r\n\\includegraphics[width=0.3\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}${2:descripcion}}\r\n\\end{figure}"
+			"\\begin{figure}[h]\r\n\\centering\r\n\\includegraphics[width=1\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}${2:descripcion}}\r\n\\end{figure}"
 		]
 	}
 	,"Contenido": {
@@ -103,8 +103,14 @@
 	//***************(Listings)***************//
 	//nota crear el enlace duro para sincronizar el
 	//archivo de configuraciones de los listings
-	,"Color Code Style": {
+	,"pcode": {
 		"prefix": "pcode", 
+		"body": [
+		"\\usepackage{listings}"
+		]
+	}
+	,"Color Code Style": {
+		"prefix": "p2code", 
 		"body": [
 			"\\usepackage{code_style}"
 		]
@@ -291,6 +297,14 @@
 		"prefix": "penumerate", 
 		"body": [
 		"\\usepackage{enumerate}"
+		]
+	}
+
+	//**************(Center)**************//
+	,"right": {
+		"prefix": "right", 
+		"body": [
+		"\\begin{flushright}\n$1\n\\end{flushright}"
 		]
 	}
 }
