@@ -165,6 +165,12 @@
 			"\\texttt{$1}"
 		]
 	}
+	,"tinclinada": {
+		"prefix": "tinclinada", 
+		"body": [
+		"\\textsl{$1}"
+		]
+	}
 	//***************(Comandos de Linux)***************//
 	,"Other comands": {
 		"prefix": "comandos", 

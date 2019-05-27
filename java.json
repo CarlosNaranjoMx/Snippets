@@ -235,4 +235,12 @@
     //     	Assert.assertTrue( true );
     // 	}
 	// }
+
+	//**************(Oracle sql)**************//
+	,"psql": {
+		"prefix": "psql", 
+		"body": [
+		"import java.sql.DriverManager;\r\nimport java.sql.Connection;\r\nimport java.sql.SQLException;"
+		]
+	}
 }

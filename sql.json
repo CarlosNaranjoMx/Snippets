@@ -44,6 +44,7 @@
 		"SELECT $1\nFROM $2\nGROUP BY $3\nHAVING $4"
 		]
 	}
+	//**************(Oracle consultas)**************//
 	,"INSERT": {
 		"prefix": "INSERT", 
 		"body": [
@@ -54,6 +55,19 @@
 		"prefix": "update", 
 		"body": [
 		"UPDATE ${1:TABLA}\nSET $2;"
+		]
+	}
+	//**************(llaves)**************//
+	,"primaria": {
+		"prefix": "primaria", 
+		"body": [
+		"ALTER TABLE $1 \n ADD CONSTRAINT pk_$2 \n PRIMARY KEY (${3:id_tabla});"
+		]
+	}
+	,"foranea": {
+		"prefix": "foranea", 
+		"body": [
+		"ALTER TABLE $1\nADD CONSTRAINT fk1_$2\nFOREIGN KEY ($3)\nREFERENCES Medico($4);"
 		]
 	}
 
