@@ -1,11 +1,11 @@
 {
-	//**************(Parseo,Parse)**************//
+	//**************([1]Parseo,Parse)**************//
 	//mejor usar round que int
 	//str.replace(cad1,cad2)
 	//cadena.upper() - mayusculas
 	//cadena.lower() -minusculas
 
-	//**************(Diccionarios,Dictionary)**************//
+	//**************([2]Diccionarios,Dictionary)**************//
 	// condicion booleana
 	// lectura y escritura con []
 	//escritura: como dic[llave]=valor
@@ -15,7 +15,8 @@
 		"${1:llave} in ${2:diccionario}"
 		]
 	}
-	//**************(Comments,comentarios)**************//
+	//**************([3]Comments)**************//
+	//function comment:
 	//descripcion
 	//:param var:
 	// :var:
@@ -26,7 +27,19 @@
 		"\"\"\"\n$1\n\"\"\""
 		]
 	}
-	//**************(Prints,Imprimir)**************//
+	,"cparam": {
+		"prefix": "cparam", 
+		"body": [
+		":param $1:"
+		]
+	}
+	,"creturn": {
+		"prefix": "creturn", 
+		"body": [
+		":return:"
+		]
+	}
+	//**************([4]Prints,Imprimir)**************//
 	// impresion con formato
 	,"fprint": {
 		"prefix": "fprint",
@@ -34,7 +47,7 @@
 		"print('${1:cadena}{}'.format(${2:variable}))"
 		]
 	}
-	//**************(Enumerate,Numeradores)**************//
+	//**************([5]Enumerate,Numeradores)**************//
 	// ejemplo enumerate inicia los indices e i
 	// for lett, i in enumerate(map(chr,range(65,91)),0):
 	//**************(Numpy)**************//
@@ -56,7 +69,7 @@
 	// arinv=vf(arinv)
 	// arr.ravel() - aplanado 
 
-	//**************(Clases,Class)**************//
+	//**************([6]Clases,Class)**************//
 	// import Nombre del archivo.Nombre de la clase
 	// los imports de archivos ejecutan primero todo el archivo
 	// solo guardar las cosas en funciones evita que se ejecute codigo
@@ -87,13 +100,13 @@
 		]
 	}
 
-	//**************(Excepciones,Exeptions)**************//
+	//**************([7]Excepciones,Exeptions)**************//
 	//un except(ex1,ex2) si es el hijo de la excepcion jala
 	//except ex1 as err: fprint
 	//creacion: Exception init, expresion, mensaje
 	//raice lanzar excepcion
 
-	//**************(Separador,Separate)**************//
+	//**************([8]Separador,Separate)**************//
 
 	,"Separador": {
 		"prefix": "separador", 
@@ -102,16 +115,16 @@
 		]
 	}
 
-	//**************(Listas,List)**************//
+	//**************([9]Listas,List)**************//
 	// list comprension, aplica funcion y condicional a los elementos
 	// [expression(i) for i in old_list if filter(i)]
 
-	//**************(Funciones,Functions)**************//
+	//**************([10]Funciones,Functions)**************//
 	// f = lamda t: t**2
 	// list comprension, map
 	//fromiter, vectorize
 
-	//**************(Expresiones Regulares, Regular Expresions)**************//
+	//**************([11]Expresiones Regulares, Regular Expresions)**************//
 	//re.compile() - creacion de expresion(findall):
 	//match,search,finditer (objetos de coincidencia)
 	//split() division del texto
@@ -125,7 +138,7 @@
 		]
 	}
 
-	//**************(Random)**************//
+	//**************([12]Random)**************//
 	,"random": {
 		"prefix": "random", 
 		"body": [
@@ -133,7 +146,7 @@
 		]
 	}
 
-	//**************(Input)**************//
+	//**************([13]Input)**************//
 	,"input": {
 		"prefix": "input", 
 		"body": [
