@@ -8,7 +8,9 @@
 		"body": [
 			"\\usepackage[english]{babel}",
 			"\\usepackage[utf8x]{inputenc}",
-			"\\usepackage[T1]{fontenc}"
+			"\\usepackage[T1]{fontenc}",
+			//muestra los metadatos en español
+			"\\usepackage[spanish]{babel}"
 		]
 	}
 	,"documentclass": {
@@ -45,6 +47,7 @@
 		]
 	}
 	//***************(Imagenes)***************//
+	// h here, t top, b bottom, page p, ! ignore, h1=H
 	,"Paquete Imagen": {
 		"prefix": "pimagen", 
 		"body": [
@@ -55,6 +58,12 @@
 		"prefix": "imagen",
 		"body": [
 			"\\begin{figure}[h]\r\n\\centering\r\n\\includegraphics[width=1\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}${2:descripcion}}\r\n\\end{figure}"
+		]
+	}
+	,"dirimages": {
+		"prefix": "dirimages", 
+		"body": [
+		"\\graphicspath{{images/}}"
 		]
 	}
 	,"Contenido": {
@@ -119,6 +128,13 @@
 		"prefix": "ecode", 
 		"body": [
 			"\\begin{scriptsize}\r\n\\estilo${1:Lenguaje}\r\n\\begin{lstlisting}[caption={${2:descripcion}}, label=lst:${3:lenguaje}code]\r\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
+		]
+	}
+	,"e2code": {
+		"prefix": "e2code", 
+		"body": [
+			"\\begin{scriptsize}\n\\begin{lstlisting}\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
+
 		]
 	}
 	//***************(Enumerate)***************//
@@ -311,6 +327,14 @@
 		"prefix": "right", 
 		"body": [
 		"\\begin{flushright}\n$1\n\\end{flushright}"
+		]
+	}
+
+	//**************(Paginas)**************//
+	,"pmargen": {
+		"prefix": "pmargen", 
+		"body": [
+		"\\usepackage[a4paper, total={6in, 8in}]{geometry}"
 		]
 	}
 }
