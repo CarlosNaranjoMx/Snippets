@@ -1,4 +1,10 @@
 {
+	//inclusion de init
+	//uso de excepciones
+	//parametros en las funciones
+	//clases
+	//diccionarios como args
+
 	//**************([1]Parseo,Parse)**************//
 	//mejor usar round que int
 	//str.replace(cad1,cad2)
@@ -123,6 +129,8 @@
 	// f = lamda t: t**2
 	// list comprension, map
 	//fromiter, vectorize
+	// parametros en funciones
+	//valores por defecto en funciones
 
 	//**************([11]Expresiones Regulares, Regular Expresions)**************//
 	//re.compile() - creacion de expresion(findall):
@@ -153,5 +161,21 @@
 		"$1 = int(input(\"$2\"))"
 		]
 	}
+	//**************([14]Main)**************//
+	,"main": {
+		"prefix": "main", 
+		"body": [
+		"if __name__ == \"__main__\":"
+		]
+	}
+	//**************([15]Paquetes)**************//
+	// importar clases para que esten a nivel de paquete
 
+	//configuracion de from package import *
+	,"all": {
+		"prefix": "all", 
+		"body": [
+		"__all__ = ['$1']"
+		]
+	}
 }
