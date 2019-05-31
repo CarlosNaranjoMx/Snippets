@@ -14,7 +14,7 @@
 
 	//transformar getters y setters en otros metodos como isEmpty()
 
-	//***************(Comentarios)***************//
+	//***************([1]Comentarios)***************//
 	"Comentario Multilinea con Asterisco": {
 		"prefix": "comast",
 		"body": [
@@ -35,7 +35,7 @@
 		" */"
 		]
 	}
-	//***************(Imports)***************//
+	//***************([2]Imports)***************//
 	,"javautil": {
 		"prefix": "util", 
 		"body": [
@@ -43,13 +43,14 @@
 		]
 	}
 
-	//***************(Clases)***************//
+	//***************([3]Clases)***************//
 	//Clases Anidadas
 	// estaticas y no estatias
 	//no estaticas internas tienen acceso a todo
 	// se acceden con punto en la externa A.B
 	//internas de metodo(?)
 	//internas anonimas
+	
 	,"Class": {
 		"prefix": "class", 
 		"body": [
@@ -68,6 +69,13 @@
 		"public static void main(String[] args){",
 			"$1",
 		"}"
+		]
+	}
+	//syntactic sugars
+	,"sclass": {
+		"prefix": "sclass", 
+		"body": [
+		"new ${1:class}${2:<>}($3){$4}"
 		]
 	}
 	//***************(Funciones)***************//
