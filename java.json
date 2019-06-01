@@ -75,10 +75,18 @@
 		]
 	}
 	//syntactic sugars
-	,"sclass": {
+	//create class whit new
+	,"nclass": {
 		"prefix": "sclass", 
 		"body": [
 		"new ${1:class}${2:<>}($3){$4}"
+		]
+	}
+	//create class
+	,"lclass": {
+		"prefix": "lclass", 
+		"body": [
+		" ${1:nameclass} ${2:name} = () -> {}; "
 		]
 	}
 	//***************(Funciones)***************//
@@ -235,10 +243,18 @@
 		]
 	}
 	//**************(Executor)**************//
+
+	//create runnable, and executor and submit, shutdown
 	,"executor": {
 		"prefix": "executor", 
 		"body": [
 		"ExecutorService executorService = Executors.newSingleThreadExecutor();"
+		]
+	}
+	,"submit": {
+		"prefix": "submit", 
+		"body": [
+		"executorService.submit(${1:name});"
 		]
 	}
 	//Thread.sleep() ?
