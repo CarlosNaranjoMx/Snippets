@@ -2,7 +2,7 @@
 	//**************(LATEX)**************//
 	// caracteres reservados: $ _ & #
 
-	//***************(Empezar Documento)***************//
+	//***************([1]Empezar Documento)***************//
 	"InputEnc": {
 		"prefix": "inputenc",
 		"body": [
@@ -46,7 +46,8 @@
 			"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\end{document}"
 		]
 	}
-	//***************(Imagenes)***************//
+	//***************([2]Imagenes)***************//
+	// se supone que h!
 	// h here, t top, b bottom, page p, ! ignore, h1=H
 	,"Paquete Imagen": {
 		"prefix": "pimagen", 
@@ -72,7 +73,7 @@
 			"\\tableofcontents"
 		]
 	}
-	//***************(Bibliografía)***************//
+	//***************([3]Bibliografía)***************//
 	,"Bibliografia": {
 		"prefix": "bibliografia",
 		"body": [
@@ -109,7 +110,7 @@
 		"\\cite[${1:pagina}]{$2}"
 		]
 	}
-	//***************(Listings)***************//
+	//***************([4]Listings)***************//
 	//nota crear el enlace duro para sincronizar el
 	//archivo de configuraciones de los listings
 	,"pcode": {
@@ -137,7 +138,7 @@
 
 		]
 	}
-	//***************(Enumerate)***************//
+	//***************([5]Enumerate)***************//
 	,"Enumerate": {
 		"prefix": "enumerate", 
 		"body": [
@@ -162,7 +163,7 @@
 		"\\begin{enumerate}[$1]\n$2\n\\end{enumerate}"
 		]
 	}
-	//***************(Tipografías)***************//
+	//***************([6]Tipografías)***************//
 	,"Black font": {
 		"prefix": "black", 
 		"body": [
@@ -187,7 +188,7 @@
 		"\\textsl{$1}"
 		]
 	}
-	//***************(Comandos de Linux)***************//
+	//***************([7]Comandos de Linux)***************//
 	,"Other comands": {
 		"prefix": "comandos", 
 		"body": [
@@ -200,7 +201,7 @@
 		"\\section{directorios} \n \\begin{enumerate} \n    \\item $1 \n \\end{enumerate}"
 		]
 	}
-	//***************(Matematicas)***************//
+	//***************([8]Matematicas)***************//
 	,"Math": {
 		"prefix": "math", 
 		"body": [
@@ -263,7 +264,7 @@
 		"\\mathbb{$1}"
 		]
 	}
-	//***************(Comandos tabular)***************//
+	//***************([9]Comandos tabular)***************//
 	,"Import tabular": {
 		"prefix": "ptabular", 
 		"body": [
@@ -282,7 +283,7 @@
 		"\\parbox[t]{$1cm}{$2\\$3}"
 		]
 	}
-	//***************(Section)***************//
+	//***************([10]Section)***************//
 	,"Section": {
 		"prefix": "section", 
 		"body": [
@@ -307,14 +308,14 @@
 		"\\subsubsection{$1}"
 		]
 	}
-	//**************(Comentarios)**************//
+	//**************([11]Comentarios)**************//
 	,"Separador": {
 		"prefix": "separador", 
 		"body": [
 		"%%%%%%%%%%%%%%%($1)%%%%%%%%%%%%%%%"
 		]
 	}
-	//**************(Enumerate)**************//
+	//**************([12]Enumerate)**************//
 	,"Pkg enumerate": {
 		"prefix": "penumerate", 
 		"body": [
@@ -322,7 +323,7 @@
 		]
 	}
 
-	//**************(Center)**************//
+	//**************([13]Center)**************//
 	,"right": {
 		"prefix": "right", 
 		"body": [
@@ -330,11 +331,19 @@
 		]
 	}
 
-	//**************(Paginas)**************//
+	//**************([14]Paginas)**************//
 	,"pmargen": {
 		"prefix": "pmargen", 
 		"body": [
 		"\\usepackage[a4paper, total={6in, 8in}]{geometry}"
+		]
+	}
+
+	//**************([15]Ecuaciones)**************//
+	,"align": {
+		"prefix": "align", 
+		"body": [
+		"\\begin{align}\n$1\n\\end{align}"
 		]
 	}
 }
