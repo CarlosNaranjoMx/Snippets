@@ -14,6 +14,9 @@
 
 	//transformar getters y setters en otros metodos como isEmpty()
 
+	//(1) lectura de algoritmos, preparacion de variables, inicio de algoritmo
+	//(2) tratar de entender las condiciones de los if's
+
 	//***************([1]Comentarios)***************//
 	"Comentario Multilinea con Asterisco": {
 		"prefix": "comast",
@@ -206,6 +209,7 @@
 		"Random rgenerator = new Random();\nrgenerator.nextInt(${1:limite});"
 		]
 	}
+	//**************(Concurrentes)**************//
 	//**************(Threads)**************//
 	//extender/implementar t r y sobreescribir el metodo run
 	// no se ejecuta indefinidamente
@@ -228,6 +232,13 @@
 		"prefix": "plocks", 
 		"body": [
 		"import java.util.concurrent.locks.*;"
+		]
+	}
+	//**************(Executor)**************//
+	,"executor": {
+		"prefix": "executor", 
+		"body": [
+		"ExecutorService executorService = Executors.newSingleThreadExecutor();"
 		]
 	}
 	//Thread.sleep() ?
