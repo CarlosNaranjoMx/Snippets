@@ -218,6 +218,12 @@
 		]
 	}
 	//**************(Concurrentes)**************//
+	,"pconcurrent": {
+		"prefix": "pconcurrent", 
+		"body": [
+		"import java.util.concurrent.*;"
+		]
+	}
 	//**************(Threads)**************//
 	//extender/implementar t r y sobreescribir el metodo run
 	// no se ejecuta indefinidamente
@@ -257,6 +263,8 @@
 		"executorService.submit(${1:name});"
 		]
 	}
+
+	//promise COmpetableFuture
 	//Thread.sleep() ?
 	// lock.lock();
 	// try{}catch(){}finally{lock.unlock();}
