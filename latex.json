@@ -264,6 +264,12 @@
 		"\\mathbb{$1}"
 		]
 	}
+	,"llaves": {
+		"prefix": "llaves", 
+		"body": [
+		"\\{$1 \\\\}"
+		]
+	}
 	//***************([9]Comandos tabular)***************//
 	,"Import tabular": {
 		"prefix": "ptabular", 

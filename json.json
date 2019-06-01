@@ -24,6 +24,12 @@
 				"}"
 		]
 	}
+	,"pesos": {
+		"prefix": "pesos", 
+		"body": [
+		"${$1:$2}"
+		]
+	}
 	//***************(Separadores)***************//
 	,"comentario separador": {
 		"prefix": "separador", 
@@ -45,4 +51,6 @@
 		"${1:pesos}{${2:numero}:$3}"
 		]
 	}
+	//**************(LATEX)**************//
+
 }

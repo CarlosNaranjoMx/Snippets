@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.24)  3 MAR 2019 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.24)  1 JUN 2019 08:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -15,7 +15,144 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.2 	/
-      /***************(Empezar Documento)***************//
+      /**************(LATEX)**************//
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+/home/naranjo/.config/Code/User/snippets/latex.json:3: Missing { inserted.
+<to be read again> 
+                   &
+l.3 	// caracteres reservados: $ _ &
+                                     #
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+/home/naranjo/.config/Code/User/snippets/latex.json:3: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.3 	// caracteres reservados: $ _ &
+                                     #
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/home/naranjo/.config/Code/User/snippets/latex.json:3: You can't use `macro parameter character #' in math mode.
+l.3 	// caracteres reservados: $ _ & #
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/home/naranjo/.config/Code/User/snippets/latex.json:4: Missing $ inserted.
+<inserted text> 
+                $
+l.4 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/naranjo/.config/Code/User/snippets/latex.json:4: Missing } inserted.
+<inserted text> 
+                }
+l.4 
+    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--4
+[]
+ []
+
+
+Overfull \hbox (0.5pt too wide) in paragraph at lines 2--4
+[]$ 
+ []
+
+
+/home/naranjo/.config/Code/User/snippets/latex.json:5: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 	/
+      /***************([1]Empezar Documento)***************//
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -37,6 +174,9 @@ Missing character: There is no * in font nullfont!
 Missing character: There is no * in font nullfont!
 Missing character: There is no * in font nullfont!
 Missing character: There is no ( in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -188,6 +328,64 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no " in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no Ã in font nullfont!
+Missing character: There is no ± in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no " in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no " in font nullfont!
@@ -295,20 +493,16 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
-/home/naranjo/.config/Code/User/snippets/latex.json:18: Missing $ inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:23: Missing $ inserted.
 <inserted text> 
                 $
-l.18 		"prefix": "start_
+l.23 		"prefix": "start_
                         article",
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
-/home/naranjo/.config/Code/User/snippets/latex.json:31: Extra }, or forgotten $.
-l.31 	}
+/home/naranjo/.config/Code/User/snippets/latex.json:36: Extra }, or forgotten $.
+l.36 	}
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -316,10 +510,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing } inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing } inserted.
 <inserted text> 
                 }
-l.35 			"\\title{$
+l.40 			"\\title{$
                   {1:title}}\r\n\\author{Naranjo Robledo Carlos $2}\r\n\\dat...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -327,10 +521,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing } inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing } inserted.
 <inserted text> 
                 }
-l.35 			"\\title{$
+l.40 			"\\title{$
                   {1:title}}\r\n\\author{Naranjo Robledo Carlos $2}\r\n\\dat...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -345,16 +539,16 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-LaTeX Font Info:    Try loading font information for +cmr on input line 35.
-LaTeX Font Info:    No file cmr.fd. on input line 35.
+LaTeX Font Info:    Try loading font information for +cmr on input line 40.
+LaTeX Font Info:    No file cmr.fd. on input line 40.
 
 LaTeX Font Warning: Font shape `/cmr/m/n' undefined
-(Font)              using `/cmr/m/n' instead on input line 35.
+(Font)              using `/cmr/m/n' instead on input line 40.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Corrupted NFSS tables.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Corrupted NFSS tables.
 wrong@fontshape ...message {Corrupted NFSS tables}
                                                   error@fontshape else let f...
-l.35 			"\\title{${1:title}}\r\n
+l.40 			"\\title{${1:title}}\r\n
                                 \\author{Naranjo Robledo Carlos $2}\r\n\\dat...
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -363,12 +557,12 @@ and deduce the truth by order and method.
 
 
 LaTeX Font Warning: Font shape `/cmr/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 35.
+(Font)              using `OT1/cmr/m/n' instead on input line 40.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.35 			"\\title{${1:title}}\r\n
+l.40 			"\\title{${1:title}}\r\n
                                 \\author{Naranjo Robledo Carlos $2}\r\n\\dat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -376,10 +570,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.35 			"\\title{${1:title}}\r\n
+l.40 			"\\title{${1:title}}\r\n
                                 \\author{Naranjo Robledo Carlos $2}\r\n\\dat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -413,8 +607,8 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Extra }, or forgotten $.
-l.35 ...e}}\r\n\\author{Naranjo Robledo Carlos $2}
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Extra }, or forgotten $.
+l.40 ...e}}\r\n\\author{Naranjo Robledo Carlos $2}
                                                   \r\n\\date{}\r\n\r\n\\begi...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -423,15 +617,15 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 35.
+LaTeX Warning: Command \r invalid in math mode on input line 40.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 35.
+LaTeX Warning: Command \r invalid in math mode on input line 40.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.35 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
+l.40 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -439,28 +633,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.35 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
+l.40 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing { inserted.
 <to be read again> 
                    \edef 
-l.35 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
+l.40 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.35 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
+l.40 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -468,10 +662,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.35 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
+l.40 ...r\n\\author{Naranjo Robledo Carlos $2}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -479,12 +673,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 35.
+LaTeX Warning: Command \r invalid in math mode on input line 40.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
+l.40 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -492,18 +686,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.35 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
+l.40 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
+l.40 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -511,20 +705,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.35 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
+l.40 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.35 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
+l.40 ...Naranjo Robledo Carlos $2}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -532,12 +726,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 35.
+LaTeX Warning: Command \r invalid in math mode on input line 40.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
+l.40 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -545,18 +739,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.35 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
+l.40 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
+l.40 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -564,20 +758,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.35 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
+l.40 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.35 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
+l.40 ...njo Robledo Carlos $2}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -585,12 +779,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 35.
+LaTeX Warning: Command \r invalid in math mode on input line 40.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.40 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n$0\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -598,18 +792,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.35 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.40 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n$0\r\n\...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.40 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n$0\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -617,20 +811,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.35 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.40 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n$0\r\n\...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.35 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.40 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n$0\r\n\...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -638,12 +832,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 35.
+LaTeX Warning: Command \r invalid in math mode on input line 40.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.40 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n$0\r\n\\end{document}"
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -651,18 +845,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.35 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.40 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n$0\r\n\\end{document}"
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.40 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n$0\r\n\\end{document}"
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -670,20 +864,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.35 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.40 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n$0\r\n\\end{document}"
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.35 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.40 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n$0\r\n\\end{document}"
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -691,12 +885,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 35.
+LaTeX Warning: Command \r invalid in math mode on input line 40.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.40 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   $0\r\n\\end{document}"
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -704,18 +898,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.35 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.40 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   $0\r\n\\end{document}"
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \n 
               
-l.35 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.40 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   $0\r\n\\end{document}"
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -723,30 +917,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.35 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.40 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   $0\r\n\\end{document}"
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.35 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.40 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   $0\r\n\\end{document}"
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing } inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing } inserted.
 <inserted text> 
                 }
-l.35 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
+l.40 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
                                                   0\r\n\\end{document}"
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -754,10 +948,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing } inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing } inserted.
 <inserted text> 
                 }
-l.35 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
+l.40 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
                                                   0\r\n\\end{document}"
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -765,10 +959,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing } inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing } inserted.
 <inserted text> 
                 }
-l.35 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
+l.40 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
                                                   0\r\n\\end{document}"
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -776,10 +970,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing } inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing } inserted.
 <inserted text> 
                 }
-l.35 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
+l.40 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
                                                   0\r\n\\end{document}"
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -787,10 +981,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing } inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing } inserted.
 <inserted text> 
                 }
-l.35 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
+l.40 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
                                                   0\r\n\\end{document}"
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -798,10 +992,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Missing } inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Missing } inserted.
 <inserted text> 
                 }
-l.35 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
+l.40 ...n\\begin{document}\r\n\\maketitle\r\n\r\n$
                                                   0\r\n\\end{document}"
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -816,10 +1010,10 @@ Missing character: There is no è in font cmex10!
 Missing character: There is no è in font cmex10!
 Missing character: There is no è in font cmex10!
 Missing character: There is no 0 in font nullfont!
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.35 ...gin{document}\r\n\\maketitle\r\n\r\n$0\r\n
+l.40 ...gin{document}\r\n\\maketitle\r\n\r\n$0\r\n
                                                   \\end{document}"
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -827,10 +1021,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:35: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:40: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.35 ...gin{document}\r\n\\maketitle\r\n\r\n$0\r\n
+l.40 ...gin{document}\r\n\\maketitle\r\n\r\n$0\r\n
                                                   \\end{document}"
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -919,10 +1113,10 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 			"\\documentclass[a4paper]{article}\r\n
+l.46 			"\\documentclass[a4paper]{article}\r\n
                                               \r\n\\usepackage[english]{babe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -930,10 +1124,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 			"\\documentclass[a4paper]{article}\r\n
+l.46 			"\\documentclass[a4paper]{article}\r\n
                                               \r\n\\usepackage[english]{babe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -941,10 +1135,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 			"\\documentclass[a4paper]{article}\r\n\r\n
+l.46 			"\\documentclass[a4paper]{article}\r\n\r\n
                                                   \\usepackage[english]{babe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -952,10 +1146,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 			"\\documentclass[a4paper]{article}\r\n\r\n
+l.46 			"\\documentclass[a4paper]{article}\r\n\r\n
                                                   \\usepackage[english]{babe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -987,10 +1181,10 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...e}\r\n\r\n\\usepackage[english]{babel}\r\n
+l.46 ...e}\r\n\r\n\\usepackage[english]{babel}\r\n
                                                   \\usepackage[utf8x]{inpute...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -998,10 +1192,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...e}\r\n\r\n\\usepackage[english]{babel}\r\n
+l.46 ...e}\r\n\r\n\\usepackage[english]{babel}\r\n
                                                   \\usepackage[utf8x]{inpute...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1034,10 +1228,10 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...abel}\r\n\\usepackage[utf8x]{inputenc}\r\n
+l.46 ...abel}\r\n\\usepackage[utf8x]{inputenc}\r\n
                                                   \\usepackage[T1]{fontenc}\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1045,10 +1239,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...abel}\r\n\\usepackage[utf8x]{inputenc}\r\n
+l.46 ...abel}\r\n\\usepackage[utf8x]{inputenc}\r\n
                                                   \\usepackage[T1]{fontenc}\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1077,10 +1271,10 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...inputenc}\r\n\\usepackage[T1]{fontenc}\r\n
+l.46 ...inputenc}\r\n\\usepackage[T1]{fontenc}\r\n
                                                   \r\n\\title{${1:titulo}}\r...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1088,10 +1282,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...inputenc}\r\n\\usepackage[T1]{fontenc}\r\n
+l.46 ...inputenc}\r\n\\usepackage[T1]{fontenc}\r\n
                                                   \r\n\\title{${1:titulo}}\r...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1099,10 +1293,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...tenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n
+l.46 ...tenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n
                                                   \\title{${1:titulo}}\r\n\\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1110,10 +1304,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...tenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n
+l.46 ...tenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n
                                                   \\title{${1:titulo}}\r\n\\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1126,8 +1320,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Extra }, or forgotten $.
-l.41 ...e[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Extra }, or forgotten $.
+l.46 ...e[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}
                                                   \r\n\\author{Naranjo Roble...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1136,15 +1330,15 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
+l.46 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
                                                   \\author{Naranjo Robledo C...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1152,28 +1346,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.41 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
+l.46 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
                                                   \\author{Naranjo Robledo C...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Missing { inserted.
 <to be read again> 
                    \edef 
-l.41 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
+l.46 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
                                                   \\author{Naranjo Robledo C...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \@use@text@encoding \@curr@enc \n 
                                              
-l.41 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
+l.46 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
                                                   \\author{Naranjo Robledo C...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1181,10 +1375,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.41 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
+l.46 ...]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n
                                                   \\author{Naranjo Robledo C...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1192,12 +1386,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
+l.46 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1205,18 +1399,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.41 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
+l.46 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
+l.46 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1224,20 +1418,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.41 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
+l.46 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.41 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
+l.46 ...}}\r\n\\author{Naranjo Robledo Carlos}\r\n
                                                   \\date{}\r\n\r\n\\begin{do...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1245,12 +1439,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
+l.46 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1258,18 +1452,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.41 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
+l.46 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
+l.46 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1277,20 +1471,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.41 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
+l.46 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.41 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
+l.46 ...or{Naranjo Robledo Carlos}\r\n\\date{}\r\n
                                                   \r\n\\begin{document}\r\n\...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1298,12 +1492,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
+l.46 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1311,18 +1505,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.41 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
+l.46 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
+l.46 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1330,20 +1524,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.41 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
+l.46 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.41 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
+l.46 ...aranjo Robledo Carlos}\r\n\\date{}\r\n\r\n
                                                   \\begin{document}\r\n\\mak...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1351,12 +1545,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.46 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n\\table...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1364,18 +1558,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.41 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.46 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n\\table...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.46 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n\\table...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1383,20 +1577,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.41 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.46 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n\\table...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.41 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
+l.46 ...}\r\n\\date{}\r\n\r\n\\begin{document}\r\n
                                                   \\maketitle\r\n\r\n\\table...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1404,12 +1598,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.46 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n\\tableofcontents\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1417,18 +1611,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.41 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.46 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n\\tableofcontents\r\n\...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.46 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n\\tableofcontents\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1436,20 +1630,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.41 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.46 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n\\tableofcontents\r\n\...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.41 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
+l.46 ...\n\r\n\\begin{document}\r\n\\maketitle\r\n
                                                   \r\n\\tableofcontents\r\n\...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1457,12 +1651,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.46 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   \\tableofcontents\r\n\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1470,18 +1664,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.41 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.46 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   \\tableofcontents\r\n\r\n\...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.46 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   \\tableofcontents\r\n\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1489,20 +1683,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.41 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.46 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   \\tableofcontents\r\n\r\n\...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.41 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
+l.46 ...\n\\begin{document}\r\n\\maketitle\r\n\r\n
                                                   \\tableofcontents\r\n\r\n\...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1510,12 +1704,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 41.
+LaTeX Warning: Command \r invalid in math mode on input line 46.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
+l.46 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
                                                   \r\n\\section{$2}\r\n\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1523,18 +1717,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Please use \mathaccent for accents in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.41 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
+l.46 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
                                                   \r\n\\section{$2}\r\n\r\n\...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Undefined control sequence.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Undefined control sequence.
 <argument> \n 
               
-l.41 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
+l.46 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
                                                   \r\n\\section{$2}\r\n\r\n\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1542,20 +1736,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: Missing { inserted.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: Missing { inserted.
 <to be read again> 
                    \egroup 
-l.41 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
+l.46 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
                                                   \r\n\\section{$2}\r\n\r\n\...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41: You can't use `\spacefactor' in math mode.
+/home/naranjo/.config/Code/User/snippets/latex.json:46: You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.41 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
+l.46 ...\n\\maketitle\r\n\r\n\\tableofcontents\r\n
                                                   \r\n\\section{$2}\r\n\r\n\...
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
@@ -1567,4 +1761,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  18i,10n,16p,402b,154s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-/home/naranjo/.config/Code/User/snippets/latex.json:41:  ==> Fatal error occurred, no output PDF file produced!
+/home/naranjo/.config/Code/User/snippets/latex.json:46:  ==> Fatal error occurred, no output PDF file produced!
