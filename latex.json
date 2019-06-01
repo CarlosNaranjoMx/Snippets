@@ -352,4 +352,13 @@
 		"\\begin{align}\n$1\n\\end{align}"
 		]
 	}
+	,"equation": {
+		"prefix": "equation", 
+		"body": [
+		"\\begin{equation}\n$1\n\\end{equation}"
+		]
+	}
+	
+	
+
 }

@@ -29,6 +29,18 @@
 		"body": [
 		"${$1:$2}"
 		]
+
+	,"salto": {
+		"prefix": "salto", 
+		"body": [
+		"\\n$$1\\n"
+		]
+	}
+	,"4barras": {
+		"prefix": "4barras", 
+		"body": [
+		"\\\\\\\\"
+		]
 	}
 	//***************(Separadores)***************//
 	,"comentario separador": {
