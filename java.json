@@ -17,6 +17,18 @@
 	//(1) lectura de algoritmos, preparacion de variables, inicio de algoritmo
 	//(2) tratar de entender las condiciones de los if's
 
+	//**************(Indice)**************//
+	//**************([1]Comentarios)**************//
+	//**************([2]Imports)**************//
+	//**************([3]Clases)**************//
+	//**************([4]Funciones)**************//
+	//***************([5]Prints)***************//
+	//***************([6]Excepciones,Exeptions)***************//
+	//***************([7]Hashes/Mapas)***************//
+
+
+
+
 	//***************([1]Comentarios)***************//
 	"Comentario Multilinea con Asterisco": {
 		"prefix": "comast",
@@ -89,14 +101,14 @@
 		" ${1:nameclass} ${2:name} = () -> {}; "
 		]
 	}
-	//***************(Funciones)***************//
+	//***************([4]Funciones)***************//
 	,"Boolean": {
 		"prefix": "fboolean", 
 		"body": [
 		"boolean $1(){\r\n    return $2;\r\n}"
 		]
 	}
-	//***************(Prints)***************//
+	//***************([5]Prints)***************//
 	,"Print": {
 		"prefix": "print", 
 		"body": [
@@ -109,7 +121,7 @@
 		"System.out.print($1);"
 		]
 	}
-	//***************(Excepciones,Exeptions)***************//
+	//***************([6]Excepciones,Exeptions)***************//
 	,"Exception": {
 		"prefix": "ilegalargument", 
 		"body": [
@@ -123,7 +135,7 @@
 		]
 	}
 	//NOTACION try(){}catch(){}
-	//***************(Hashes/Mapas)***************//
+	//***************([7]Hashes/Mapas)***************//
 	,"Mapa": {
 		"prefix": "map", 
 		"body": [
@@ -142,14 +154,14 @@
 		"${1:nombre}.containsKey(${2:llave})"
 		]
 	}
-	//***************(Hilos)***************//
+	//***************([8]Hilos)***************//
 	,"Runnable": {
 		"prefix": "runnable", 
 		"body": [
 		"\/**\r\n * $1\r\n *\/\r\npublic class $1 implements Runnable{\r\n    \r\n    @Override\r\n    public void run() {\r\n\r\n    }\r\n   \r\n}"
 		]
 	}
-	//**************(Reader and writer)**************//
+	//**************([9]Reader and writer)**************//
 	,"Paquete read": {
 		"prefix": "pread", 
 		"body": [
