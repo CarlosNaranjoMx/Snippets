@@ -75,9 +75,9 @@
 		]
 	}
 	//syntactic sugars
-	//create class whit new
+	//create class whit new sin nombre
 	,"nclass": {
-		"prefix": "sclass", 
+		"prefix": "nclass", 
 		"body": [
 		"new ${1:class}${2:<>}($3){$4}"
 		]
@@ -287,5 +287,12 @@
 		]
 	}
 	//**************(Lambda expresions)**************//
-	//object.
+	//foreach aplly function list
+	,"flist": {
+		"prefix": "flist", 
+		"body": [
+		"${1:list}.forEach(${2:function});"
+		]
+	}
+
 }
