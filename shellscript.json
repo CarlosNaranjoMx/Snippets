@@ -25,4 +25,20 @@
 		]
 	}
 	//**************(Bashrc)**************//
+
+	//**************(Comandos)**************//
+	//mostrar los programas instalados
+	,"dpkg": {
+		"prefix": "dpkg", 
+		"body": [
+		"dpkg --list"
+		]
+	}
+	//desinstalar un programa
+	,"premove": {
+		"prefix": "premove", 
+		"body": [
+		"sudo apt --purge remove ${1:name}"  
+		]
+	}
 }
