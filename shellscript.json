@@ -1,13 +1,20 @@
 {
-	//**************(Fors)**************//
-	"for": {
+	//**************([1]Start)**************//
+	"start": {
+		"prefix": "start", 
+		"body": [
+		"#!/bin/bash"
+		]
+	}
+	//**************([2]Fors)**************//
+	,"for": {
 		"prefix": "for", 
 		"body": [
 		"for i in `seq ${1:inicio} ${2:fin}`\ndo\n$3\ndone"
 		]
 	}
 	//**************(Concatenar cadenas)**************//
-	//**************(Acceso al Arreglo)**************//
+	//**************([3]Acceso al Arreglo)**************//
 	//bash
 	//declaracion nombre=()
 	//en los for ${arr[*]}

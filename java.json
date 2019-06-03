@@ -187,21 +187,21 @@
 		"String[]${1:nombre}=${2:string}.split($3)${4:;}"
 		]
 	}
-	//**************(String-Int)**************//
+	//**************([10]String-Int)**************//
 	,"String-Int": {
 		"prefix": "strint", 
 		"body": [
 		"Integer.parseInt($1)${2:;}"
 		]
 	}
-	//**************(Integer-String,3formas)**************//
+	//**************([11]Integer-String,3formas)**************//
 	,"Int-String": {
 		"prefix": "intstr", 
 		"body": [
 		"$1+\"\"${2:;}"
 		]
 	}
-	//**************(List)**************//
+	//**************([12]List)**************//
 	,"Lisr": {
 		"prefix": "plist", 
 		"body": [
@@ -214,7 +214,7 @@
 		"LinkedList<$1> $2 = new LinkedList<>();"
 		]
 	}
-	//**************(Random)**************//
+	//**************([13]Random)**************//
 	,"Pkg Random": {
 		"prefix": "prandom", 
 		"body": [
@@ -229,14 +229,14 @@
 		"Random rgenerator = new Random();\nrgenerator.nextInt(${1:limite});"
 		]
 	}
-	//**************(Concurrentes)**************//
+	//**************([14]Concurrentes)**************//
 	,"pconcurrent": {
 		"prefix": "pconcurrent", 
 		"body": [
 		"import java.util.concurrent.*;"
 		]
 	}
-	//**************(Threads)**************//
+	//**************([15]Threads)**************//
 	//extender/implementar t r y sobreescribir el metodo run
 	// no se ejecuta indefinidamente
 	// run no es un metodo estatico
@@ -253,14 +253,14 @@
 		"Thread.currentThread().getId();"
 		]
 	}
-	//**************(Locks)**************//
+	//**************([16]Locks)**************//
 	,"pkg locks": {
 		"prefix": "plocks", 
 		"body": [
 		"import java.util.concurrent.locks.*;"
 		]
 	}
-	//**************(Executor)**************//
+	//**************([17]Executor)**************//
 
 	//create runnable, and executor and submit, shutdown
 	,"executor": {
@@ -281,7 +281,7 @@
 	// lock.lock();
 	// try{}catch(){}finally{lock.unlock();}
 
-	//**************(Test junit)**************//
+	//**************([18]Test junit)**************//
 	// import org.junit.Test;
 	// import org.junit.Assert;
 	// public class AppTest {
@@ -291,14 +291,14 @@
     // 	}
 	// }
 
-	//**************(Oracle sql)**************//
+	//**************([19]Oracle sql)**************//
 	,"psql": {
 		"prefix": "psql", 
 		"body": [
 		"import java.sql.DriverManager;\r\nimport java.sql.Connection;\r\nimport java.sql.SQLException;"
 		]
 	}
-	//**************(Lambda expresions)**************//
+	//**************([20]Lambda expresions)**************//
 	//foreach aplly function list
 	,"flist": {
 		"prefix": "flist", 
