@@ -1,4 +1,10 @@
 {
+	//**************(Indice)**************//
+	//**************([1]Start)**************//
+	//**************([2]Fors)**************//
+	//**************([3]Acceso al Arreglo)**************//
+	//**************([4]Comandos)**************//
+	
 	//**************([1]Start)**************//
 	"start": {
 		"prefix": "start", 
@@ -24,9 +30,7 @@
 		"#${1:nombre}[${2:indice}]"
 		]
 	}
-	//**************(Bashrc)**************//
-
-	//**************(Comandos)**************//
+	//**************([4]Comandos)**************//
 	//mostrar los programas instalados
 	,"dpkg": {
 		"prefix": "dpkg", 
@@ -39,6 +43,14 @@
 		"prefix": "premove", 
 		"body": [
 		"sudo apt --purge remove ${1:name}"  
+		]
+	}
+
+	//**************(Instalation-User)**************//
+	,"pip3install--user": {
+		"prefix": "pip3install--user", 
+		"body": [
+		"pip3 install --user ${1:meson}"
 		]
 	}
 }
