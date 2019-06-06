@@ -236,6 +236,12 @@
 		"import java.util.concurrent.*;"
 		]
 	}
+	,"synchronized": {
+		"prefix": "synchronized", 
+		"body": [
+		"public synchronized ${1:name} (){\n$1\n}"
+		]
+	}
 	//**************([15]Threads)**************//
 	//extender/implementar t r y sobreescribir el metodo run
 	// no se ejecuta indefinidamente

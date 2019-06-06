@@ -46,11 +46,16 @@
 		]
 	}
 
-	//**************(Instalation-User)**************//
+	//**************([5]Instalation-User)**************//
 	,"pip3install--user": {
 		"prefix": "pip3install--user", 
 		"body": [
 		"pip3 install --user ${1:meson}"
 		]
 	}
+
+	//**************(Dir LInux)**************//
+	//etc/enviroment - variables de entorno
+	//opt - paquetes de instalacion 
+	//usr/lib - paquetes de instalacion
 }

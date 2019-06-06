@@ -29,11 +29,17 @@
 		"body": [
 		"${$1:$2}"
 		]
-
+	}
 	,"salto": {
 		"prefix": "salto", 
 		"body": [
 		"\\n$$1\\n"
+		]
+	}
+	,"llsalto": {
+		"prefix": "llsalto", 
+		"body": [
+		"{\\n$$1\\n}"
 		]
 	}
 	,"4barras": {
