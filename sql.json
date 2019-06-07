@@ -1,5 +1,5 @@
 {
-	//**************(Comentarios)**************//
+	//**************([1]Comentarios)**************//
 	"Separador": {
 		"prefix": "separador", 
 		"body": [
@@ -7,7 +7,7 @@
 		]
 	}
 
-	//**************(oracle)**************//
+	//**************([2]oracle)**************//
 	,"Number": {
 		"prefix": "number", 
 		"body": [
@@ -44,7 +44,7 @@
 		"SELECT $1\nFROM $2\nGROUP BY $3\nHAVING $4"
 		]
 	}
-	//**************(Oracle consultas)**************//
+	//**************([3]Oracle consultas)**************//
 	,"INSERT": {
 		"prefix": "INSERT", 
 		"body": [
@@ -57,7 +57,7 @@
 		"UPDATE ${1:TABLA}\nSET $2;"
 		]
 	}
-	//**************(llaves)**************//
+	//**************([4]llaves)**************//
 	,"primaria": {
 		"prefix": "primaria", 
 		"body": [
@@ -68,6 +68,13 @@
 		"prefix": "foranea", 
 		"body": [
 		"ALTER TABLE $1\nADD CONSTRAINT fk1_$2\nFOREIGN KEY ($3)\nREFERENCES Medico($4);"
+		]
+	}
+	//**************([5]usuarios)**************//
+	,"usuario": {
+		"prefix": "usuario", 
+		"body": [
+		"grant all privileges to userName identified by password;"
 		]
 	}
 

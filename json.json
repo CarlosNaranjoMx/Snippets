@@ -1,16 +1,10 @@
 {
-	//***************(Snippet de Snippets)***************//
+	//***************(Snippets de Snippets)***************//
 	"Snippet": {
 		"prefix": "script",
 		"body": [
-			",\"${1:Nombre}\": {",
-			"	\"prefix\": \"$1\", ",
-			"	\"body\": [",
-			"	\"$2\""
-			"	]",
-			"}"
+			",\"${1:Nombre}\": {\n	\"prefix\": \"$1\", \n	\"body\": [\n	\"$2\"\n	]\n}"
 		]
-	}
 
 	,"Snippet2": {
 		//init script

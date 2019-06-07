@@ -11,12 +11,12 @@
 
 	//metodos con estructura como de clase
 	//metodos con algunos resultados de Ejemplo
-
+	
 	//transformar getters y setters en otros metodos como isEmpty()
-
+	
 	//(1) lectura de algoritmos, preparacion de variables, inicio de algoritmo
 	//(2) tratar de entender las condiciones de los if's
-
+	
 	//**************(Indice)**************//
 	//**************([1]Comentarios)**************//
 	//**************([2]Imports)**************//
@@ -25,9 +25,8 @@
 	//***************([5]Prints)***************//
 	//***************([6]Excepciones,Exeptions)***************//
 	//***************([7]Hashes/Mapas)***************//
-
-
-
+	//***************([8]Hilos)***************//
+	//**************([9]Reader and writer)**************//
 
 	//***************([1]Comentarios)***************//
 	"Comentario Multilinea con Asterisco": {
@@ -298,6 +297,7 @@
 	// }
 
 	//**************([19]Oracle sql)**************//
+	//CRUD
 	,"psql": {
 		"prefix": "psql", 
 		"body": [
