@@ -1,4 +1,19 @@
 {
+	//**************([0]Start)**************//
+	//**************([1]Comentarios)**************//
+	//**************([2]oracle)**************//
+	//**************([3]Oracle consultas)**************//
+	//**************([4]llaves)**************//
+	//**************([5]usuarios)**************//
+
+	//**************([0]Start)**************//
+	"start": {
+		"prefix": "start", 
+		"body": [
+		"alter session set \"_ORACLE_SCRIPT\"=true;"
+		]
+	},
+
 	//**************([1]Comentarios)**************//
 	"Separador": {
 		"prefix": "separador", 
@@ -44,6 +59,7 @@
 		"SELECT $1\nFROM $2\nGROUP BY $3\nHAVING $4"
 		]
 	}
+
 	//**************([3]Oracle consultas)**************//
 	,"INSERT": {
 		"prefix": "INSERT", 
