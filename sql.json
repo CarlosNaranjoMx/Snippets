@@ -1,4 +1,6 @@
 {
+	//se deben eliminar primero las relaciones
+
 	//**************([0]Start)**************//
 	//**************([1]Comentarios)**************//
 	//**************([2]oracle)**************//
@@ -59,6 +61,24 @@
 		"SELECT $1\nFROM $2\nGROUP BY $3\nHAVING $4"
 		]
 	}
+	,"drop": {
+		"prefix": "drop", 
+		"body": [
+		"DROP TABLE $1;"
+		]
+	}
+	,"pk": {
+		"prefix": "pk", 
+		"body": [
+		"ALTER TABLE $1\nADD CONSTRAINT pk_$2\n PRIMARY KEY ($3);"
+		]
+	}
+	,"fk": {
+		"prefix": "fk", 
+		"body": [
+		"ALTER TABLE $1\nADD CONSTRAINT $2\nFOREIGN KEY(id_$3)\nREFERENCES ${4:tabla}(id_$3;)"
+		]
+	}
 
 	//**************([3]Oracle consultas)**************//
 	,"INSERT": {
@@ -77,7 +97,7 @@
 	,"primaria": {
 		"prefix": "primaria", 
 		"body": [
-		"ALTER TABLE $1 \n ADD CONSTRAINT pk_$2 \n PRIMARY KEY (${3:id_tabla});"
+		"ALTER TABLE $1 \n ADD CONSTRAINT pk_$1 \n PRIMARY KEY (id_$1);"
 		]
 	}
 	,"foranea": {
