@@ -128,7 +128,7 @@
 	,"Example Code": {
 		"prefix": "ecode", 
 		"body": [
-			"\\begin{scriptsize}\r\n\\estilo${1:Lenguaje}\r\n\\begin{lstlisting}[caption={${2:descripcion}}, label=lst:${3:lenguaje}code]\r\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
+			"\\begin{scriptsize}\r\n\\estilo${1:Lenguaje}\r\n\\begin{lstlisting}[\n    caption={${2:descripcion}},\n    label=lst:${3:lenguaje}code]\r\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
 		]
 	}
 	,"e2code": {
