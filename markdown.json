@@ -29,6 +29,12 @@
 		"_$1_"
 		]
 	}
+	,"tfont": {
+		"prefix": "tfont", 
+		"body": [
+		"~~$1~~"
+		]
+	}
 	//**************([2]Notes)**************//
 	,"startnote": {
 		"prefix": "startnote", 
