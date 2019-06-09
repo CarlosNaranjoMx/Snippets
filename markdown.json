@@ -23,11 +23,24 @@
 		"![](${1:image})"
 		]
 	}
+	,"sfont": {
+		"prefix": "sfont", 
+		"body": [
+		"_$1_"
+		]
+	}
 	//**************([2]Notes)**************//
 	,"startnote": {
 		"prefix": "startnote", 
 		"body": [
 		"# ${1:titulo}\n## Indice\n "
+		]
+	}
+	//**************([3])**************//
+	,"indice": {
+		"prefix": "indice", 
+		"body": [
+		"[${1:titulo}](#${1:etiqueta})"
 		]
 	}
 }
