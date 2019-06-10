@@ -157,6 +157,12 @@
 		"\\item \\texttt{$1}"
 		]
 	}
+	,"bfitem": {
+		"prefix": "bfitem", 
+		"body": [
+		"\\item \\textbf{$1}"
+		]
+	}
 	,"Enumeratec": {
 		"prefix": "cenumerate", 
 		"body": [
