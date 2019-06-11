@@ -46,8 +46,8 @@
 			"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\end{document}"
 		]
 	}
-	,"article": {
-		"prefix": "article", 
+	,"article2": {
+		"prefix": "article2", 
 		"body": [
 		"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\usepackage[colorlinks=true, allcolors=blue]{hyperref}\r\n\r\n\\title{$1}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\begin{thebibliography}{$3}\r\n\\bibitem{$4}\r\n\r\n\\end{thebibliography}\r\n\r\n\\end{document}"
 		]
@@ -173,6 +173,12 @@
 		"prefix": "cenumerate", 
 		"body": [
 		"\\begin{enumerate}[$1]\n$2\n\\end{enumerate}"
+		]
+	}
+	,"benumerate": {
+		"prefix": "benumerate", 
+		"body": [
+		"\\begin{enumerate}[$\bulet$]\n$1\nS\\end{enumerate}"
 		]
 	}
 	//***************([6]Tipografías)***************//

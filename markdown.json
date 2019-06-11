@@ -10,6 +10,12 @@
 		"~~~\n$1\n~~~"
 		]
 	}
+	,"startmateria": {
+		"prefix": "start", 
+		"body": [
+		"- [$1](#1)\r\n- [glosario](#glosario)\r\n\r\n## $1\r\n\r\n## glosario\r\n\r\n------------------------------------------------------"
+		]
+	}
 	,"code": {
 		"prefix": "code", 
 		"body": [
