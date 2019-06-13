@@ -1,5 +1,22 @@
+//**************(Indice)**************//
+//**************([1]Print,Imprimir)**************//
+//**************([2]Archivos iniciales)**************//
+//**************([3]Scaner,Entrada)**************//
+//**************([4]Arreglos)**************//
+//**************([5]Cadenas)**************//
+//**************([6]Llamadas al sistema)**************//
+//**************([7]Sistema de Archivos)**************//
+//**************([8]Include)**************//
+//**************([9]Struct)**************//
+//**************([10]Threads)**************//
+//**************([11]Apuntadores)**************//
+//**************([12]FUnciones)**************//
+//**************([13]Malloc)**************//
+//**************([14]Concurrente)**************//
+//**************([15]Casting)**************//
+//**************([16]control)**************//
 {
-	//**************(Print,Imprimir)**************//
+	//**************([1]Print,Imprimir)**************//
 	"Printf": {
 		"prefix": "printf", 
 		"body": [
@@ -10,16 +27,16 @@
 		"prefix": "fprint", 
 		"body": [
 		"printf(\"$1%d\\n\",$2);"
-		]
-	}
-	//**************(Archivos iniciales)**************//
+	]
+}
+//**************([2]Archivos iniciales)**************//
 	,"Start": {
 		"prefix": "start", 
 		"body": [
 		"#include <stdio.h> \n int main(){ \n     return 0; \n}"
-		]
-	}
-	//**************(Scaner,Entrada)**************//
+	]
+}
+//**************([3]Scaner,Entrada)**************//
 	,"Entrada Escaner": {
 		"prefix": "entrada", 
 		"body": [
@@ -39,10 +56,10 @@
 	,"Scaner expresion regular": {
 		"prefix": "", 
 		"body": [
-		""
+			""
 		]
 	}
-	//**************(Arreglos)**************//
+	//**************([4]Arreglos)**************//
 	//tam de 100
 	//int arr[2] = {0,1};
 	,"Arreglo": {
@@ -52,7 +69,7 @@
 		]
 	}
 	//double array[5] = {};
-	//**************(Cadenas)**************//
+	//**************([5]Cadenas)**************//
 	,"paquete cadenas": {
 		"prefix": "pstring", 
 		"body": [
@@ -62,33 +79,33 @@
 	,"Compare": {
 		"prefix": "cstr", 
 		"body": [
-		"strcmp(${1:nombre1},${2:nombre2})${3:;}"
+			"strcmp(${1:nombre1},${2:nombre2})${3:;}"
 		]
 	}
-	//**************(Llamadas al sistema)**************//
+	//**************([6]Llamadas al sistema)**************//
 	,"paquete llamada al sistema": {
 		"prefix": "psistema", 
 		"body": [
-		"#include<sys/syscall.h>"
+			"#include<sys/syscall.h>"
 		]
 	}
-	//**************(Sistema de Archivos)**************//
+	//**************([7]Sistema de Archivos)**************//
 	,"p sistema de archivos": {
 		"prefix": "parchivos", 
 		"body": [
-		"#include<conio.h>\n#include<dir.h>"
+			"#include<conio.h>\n#include<dir.h>"
 		]
 	}
-	//**************(Include)**************//
+	//**************([8]Include)**************//
 	,"Include": {
 		"prefix": "include", 
 		"body": [
 		"#include $1"
 		]
 	}
-	//**************(Struct)**************//
+	//**************([9]Struct)**************//
 	//creacion como un arreglo de cosas
-	//**************(Threads)**************//
+	//**************([10]Threads)**************//
 	//bandera al compilador -pthread
 	,"pkg thread": {
 		"prefix": "pthread", 
@@ -96,13 +113,13 @@
 		"#include <pthread.h>"
 		]
 	}
-	//**************(Apuntadores)**************//
+	//**************([11]Apuntadores)**************//
 	// volverlo apuntador &
-
-	//**************(FUnciones)**************//
+	
+	//**************([12]FUnciones)**************//
 	// espera un apuntador function(struct algo *cosa) 
 
-	//**************(Malloc)**************//
+	//**************([13]Malloc)**************//
 	,"pkg malloc": {
 		"prefix": "pmalloc", 
 		"body": [
@@ -110,12 +127,12 @@
 		]
 	}
 
-	//**************(Concurrente)**************//
+	//**************([14]Concurrente)**************//
 
-	//**************(Casting)**************//
+	//**************([15]Casting)**************//
 	//strtol(cadena,parte2,numerode enteros)
 
-	//**************(control)**************//
+	//**************([16]control)**************//
 	,"elseif": {
 		"prefix": "elseif", 
 		"body": [
