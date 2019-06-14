@@ -19,8 +19,9 @@
 	//**************([14]Paginas)**************//
 	//**************([15]Ecuaciones)**************//
 	//**************([16]Glosario)**************//
+	//**************([17]Beamer)**************//
 
-	"InputEnc": {
+	"InputEnc": { 
 		"prefix": "inputenc",
 		"body": [
 			"\\usepackage[english]{babel}",
@@ -29,7 +30,7 @@
 			//muestra los metadatos en español
 			"\\usepackage[spanish]{babel}"
 		]
-	}
+	} 
 	,"documentclass": {
 		"prefix": "documentclass",
 		"body": [
@@ -421,4 +422,15 @@
 		"\\printglosaries"
 		]
 	}
+
+	//**************([17]Beamer)**************//
+	// frame to new presentation
+	// section to table of contents
+	,"frame": {
+		"prefix": "frame", 
+		"body": [
+		"\\begin{frame}{${1:titulo}\n$2\n\\end{frame}"
+		]
+	}
+
 }

@@ -4,13 +4,28 @@
 	//parametros en las funciones
 	//clases
 	//diccionarios como args
-
+	//**************(Indice)**************//
+	//**************([1]Parseo,Parse)**************//
+	//**************([2]Diccionarios,Dictionary)**************//
+	//**************([3]Comments)**************//
+	//**************([4]Prints,Imprimir)**************//
+	//**************([5]Enumerate,Numeradores)**************//
+	//**************([6]Clases,Class)**************//
+	//**************([7]Excepciones,Exeptions)**************//
+	//**************([8]Separador,Separate)**************//
+	//**************([9]Listas,List)**************//
+	//**************([10]Funciones,Functions)**************//
+	//**************([11]Expresiones Regulares, Regular Expresions)**************//
+	//**************([12]Random)**************//
+	//**************([13]Input)**************//
+	//**************([14]Main)**************//
+	//**************([15]Paquetes)**************//
 	//**************([1]Parseo,Parse)**************//
 	//mejor usar round que int
 	//str.replace(cad1,cad2)
 	//cadena.upper() - mayusculas
 	//cadena.lower() -minusculas
-
+	
 	//**************([2]Diccionarios,Dictionary)**************//
 	// condicion booleana
 	// lectura y escritura con []
@@ -19,9 +34,9 @@
 		"prefix": "in",
 		"body": [
 		"${1:llave} in ${2:diccionario}"
-		]
-	}
-	//**************([3]Comments)**************//
+	]
+}
+//**************([3]Comments)**************//
 	//function comment:
 	//descripcion
 	//:param var:
@@ -43,17 +58,17 @@
 		"prefix": "creturn", 
 		"body": [
 		":return:"
-		]
-	}
-	//**************([4]Prints,Imprimir)**************//
+	]
+}
+//**************([4]Prints,Imprimir)**************//
 	// impresion con formato
 	,"fprint": {
 		"prefix": "fprint",
 		"body": [
 		"print('${1:cadena}{}'.format(${2:variable}))"
-		]
-	}
-	//**************([5]Enumerate,Numeradores)**************//
+	]
+}
+//**************([5]Enumerate,Numeradores)**************//
 	// ejemplo enumerate inicia los indices e i
 	// for lett, i in enumerate(map(chr,range(65,91)),0):
 	//**************(Numpy)**************//
@@ -74,7 +89,7 @@
     // vf = np.vectorize(f)
 	// arinv=vf(arinv)
 	// arr.ravel() - aplanado 
-
+	
 	//**************([6]Clases,Class)**************//
 	// import Nombre del archivo.Nombre de la clase
 	// los imports de archivos ejecutan primero todo el archivo
@@ -102,16 +117,16 @@
 	,"String class": {
 		"prefix": "sclass", 
 		"body": [
-		"class $1():\r\n    def __init__(self,$3):\r\n    \"\"\"\r\n    $2\r\n    \"\"\"\r\n        self.$4 = $4\r\n        self.n = len(mensaje)\r\n\r\n    def __str__(self):\r\n        return $5"
+			"class $1():\r\n    def __init__(self,$3):\r\n    \"\"\"\r\n    $2\r\n    \"\"\"\r\n        self.$4 = $4\r\n        self.n = len(mensaje)\r\n\r\n    def __str__(self):\r\n        return $5"
 		]
 	}
-
+	
 	//**************([7]Excepciones,Exeptions)**************//
 	//un except(ex1,ex2) si es el hijo de la excepcion jala
 	//except ex1 as err: fprint
 	//creacion: Exception init, expresion, mensaje
 	//raice lanzar excepcion
-
+	
 	//**************([8]Separador,Separate)**************//
 
 	,"Separador": {
@@ -124,14 +139,14 @@
 	//**************([9]Listas,List)**************//
 	// list comprension, aplica funcion y condicional a los elementos
 	// [expression(i) for i in old_list if filter(i)]
-
+	
 	//**************([10]Funciones,Functions)**************//
 	// f = lamda t: t**2
 	// list comprension, map
 	//fromiter, vectorize
 	// parametros en funciones
 	//valores por defecto en funciones
-
+	
 	//**************([11]Expresiones Regulares, Regular Expresions)**************//
 	//re.compile() - creacion de expresion(findall):
 	//match,search,finditer (objetos de coincidencia)
@@ -145,7 +160,7 @@
 		"import re"
 		]
 	}
-
+	
 	//**************([12]Random)**************//
 	,"random": {
 		"prefix": "random", 
