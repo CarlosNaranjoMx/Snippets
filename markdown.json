@@ -22,6 +22,12 @@
 		"`$1`"
 		]
 	}
+	,"lcode": {
+		"prefix": "lcode", 
+		"body": [
+		"```$1\n$2\n```"
+		]
+	}
 	,"image": {
 		"prefix": "image", 
 		"body": [
