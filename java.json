@@ -275,6 +275,12 @@
 		"Thread.sleep($1);"
 		]
 	}
+	,"pkg semaphore": {
+		"prefix": "psemaphore", 
+		"body": [
+		"import java.util.concurrent.Semaphore;"
+		]
+	}
 	//**************([16]Locks)**************//
 	,"pkg locks": {
 		"prefix": "plocks", 
