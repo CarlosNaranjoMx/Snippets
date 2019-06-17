@@ -269,6 +269,12 @@
 			"Thread.currentThread().getId();"
 		]
 	}
+	,"Sleep": {
+		"prefix": "sleep", 
+		"body": [
+		"Thread.sleep($1);"
+		]
+	}
 	//**************([16]Locks)**************//
 	,"pkg locks": {
 		"prefix": "plocks", 

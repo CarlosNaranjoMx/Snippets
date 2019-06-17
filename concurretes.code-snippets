@@ -3,12 +3,7 @@
 	//**************(Hilos)**************//
 	//creas la clase que implenta thread, (con sus candados y eso)
 	//creas varios objetos que la implementen
-	"Sleep": {
-		"prefix": "sleep", 
-		"body": [
-		"Thread.sleep($1);"
-		]
-	}
+	
 	//**************(Candado)**************//
 	//quiero que uno lo adquiera primero (?)
 
@@ -20,7 +15,7 @@
 	//hae referencia a un arreglo o lista(?)
 	// si usas semaforos es porque usaras el indice de recursos disponibles
 	//empezamos con 20 recursos
-	,"pkg semaphore": {
+	"pkg semaphore": {
 		"prefix": "psemaphore", 
 		"body": [
 		"import java.util.concurrent.Semaphore;"
