@@ -63,7 +63,7 @@
 	,"indice": {
 		"prefix": "indice", 
 		"body": [
-		"[${1:titulo}](#${1:etiqueta})"
+		"- [${1:titulo}](#${1:etiqueta})"
 		]
 	}
 }

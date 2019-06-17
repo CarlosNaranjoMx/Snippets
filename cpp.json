@@ -1,4 +1,5 @@
 {
+	//compile g++ inputfile.cpp -o outputbinary
 	//recordar que en c las listas son vector, y los parametros de los metodos cambian
 	"Map": {
 		"prefix": "map_sin_orden", 
