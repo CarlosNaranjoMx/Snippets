@@ -40,6 +40,7 @@
 	//**************([20]Lambda expresions)**************//
 	//**************([21]Algoritmos)**************//
 	//**************([22]Matematicas)**************//
+	//**************([23]Data Struct)**************//
 	
 	//***************([1]Comentarios)***************//
 	"Comentario Multilinea con Asterisco": {
@@ -351,6 +352,25 @@
 		"prefix": "techo", 
 		"body": [
 		"Math.ceil($1)"
+		]
+	}
+	//**************([23]Data Struct)**************//
+	,"ppqueue": {
+		"prefix": "ppqueue", 
+		"body": [
+		"import java.util.PriorityQueue;"
+		]
+	}
+	,"iqueue": {
+		"prefix": "iqueue", 
+		"body": [
+		"${1:name}.offer($2)"
+		]
+	}
+	,"rqueue": {
+		"prefix": "rqueue", 
+		"body": [
+		"${1:name}.poll()"
 		]
 	}
 }
