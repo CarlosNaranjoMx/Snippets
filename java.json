@@ -336,4 +336,11 @@
 		]
 	}
 
+	//**************([21]Algoritmos)**************//
+	,"mergesort": {
+		"prefix": "mergesort", 
+		"body": [
+		""
+		]
+	}
 }
