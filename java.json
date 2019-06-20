@@ -38,6 +38,8 @@
 	//**************([18]Test junit)**************//
 	//**************([19]Oracle sql)**************//
 	//**************([20]Lambda expresions)**************//
+	//**************([21]Algoritmos)**************//
+	//**************([22]Matematicas)**************//
 	
 	//***************([1]Comentarios)***************//
 	"Comentario Multilinea con Asterisco": {
@@ -341,6 +343,14 @@
 		"prefix": "mergesort", 
 		"body": [
 		""
+		]
+	}
+	//**************([22]Matematicas)**************//
+	// comparar el resultado con el anterior
+	,"techo": {
+		"prefix": "techo", 
+		"body": [
+		"Math.ceil($1)"
 		]
 	}
 }
