@@ -338,6 +338,7 @@
 		"${1:list}.forEach(${2:function});"
 		]
 	}
+	//use with a comparator, neg, 0, o positivo
 
 	//**************([21]Algoritmos)**************//
 	,"mergesort": {
@@ -371,6 +372,12 @@
 		"prefix": "rqueue", 
 		"body": [
 		"${1:name}.poll()"
+		]
+	}
+	,"minheap": {
+		"prefix": "minheap", 
+		"body": [
+		"PriorityQueue<Integer> minHeap = new PriorityQueue<>((x, y) -> x - y);"
 		]
 	}
 }
