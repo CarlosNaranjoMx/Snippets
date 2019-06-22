@@ -1,4 +1,7 @@
 {
+	// escapar parentesis y espacios
+	// xargs para concatenar argumentos
+
 	//**************(Indice)**************//
 	//**************([1]Start)**************//
 	//**************([2]Fors)**************//
