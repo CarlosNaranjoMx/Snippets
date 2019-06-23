@@ -150,6 +150,13 @@
 	}
 	//NOTACION try(){}catch(){}
 	//***************([7]Hashes/Mapas)***************//
+	//paquete de map
+	,"pmap ": {
+		"prefix": "pmap ", 
+		"body": [
+		"import java.util.Map;\nimport java.util.HashMap;"
+		]
+	}
 	,"Mapa": {
 		"prefix": "map", 
 		"body": [
