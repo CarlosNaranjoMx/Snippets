@@ -41,6 +41,7 @@
 	//**************([21]Algoritmos)**************//
 	//**************([22]Matematicas)**************//
 	//**************([23]Data Struct)**************//
+	//**************([24]Java fx)**************//
 	
 	//***************([1]Comentarios)***************//
 	"Comentario Multilinea con Asterisco": {
@@ -341,10 +342,10 @@
 	//use with a comparator, neg, 0, o positivo
 
 	//**************([21]Algoritmos)**************//
-	,"mergesort": {
-		"prefix": "mergesort", 
+	,"leetcode": {
+		"prefix": "leetcode", 
 		"body": [
-		""
+		"public class Solution{\r\n    \r\n    public int ${1:function}(int x) {\r\n        \r\n    }\r\n\r\n    public static void main(String[] args){\r\n        int int32 = 123;\r\n        System.out.println(${1:function}());\r\n    }\r\n}"
 		]
 	}
 	//**************([22]Matematicas)**************//
@@ -380,4 +381,6 @@
 		"PriorityQueue<Integer> minHeap = new PriorityQueue<>((x, y) -> x - y);"
 		]
 	}
+	//**************([24]Java fx)**************//
+
 }
