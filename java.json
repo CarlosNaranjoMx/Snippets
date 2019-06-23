@@ -352,7 +352,7 @@
 	,"leetcode": {
 		"prefix": "leetcode", 
 		"body": [
-		"public class Solution{\r\n    \r\n    public int ${1:function}(int x) {\r\n        \r\n    }\r\n\r\n    public static void main(String[] args){\r\n        int int32 = 123;\r\n        System.out.println(${1:function}());\r\n    }\r\n}"
+		"public class Solution{\r\n    \r\n    public int ${1:function}(int x) {\r\n        int r1 = 0;\r\n        int result = r1;\r\n        return result;\r\n    }\r\n\r\n    public static void main(String[] args){\r\n        int input = 123;\r\n        System.out.println(new Solution().${1:funtion}(input));\r\n    }\r\n}"
 		]
 	}
 	//**************([22]Matematicas)**************//
