@@ -1,0 +1,12 @@
+{
+	//**************(Indice)**************//
+	//**************([1]Start)**************//
+
+	//**************([1]Start)**************//
+	"start": {
+		"prefix": "start", 
+		"body": [
+		"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n  <meta charset=\"utf-8\" \/>\r\n  <title>Page Title<\/title>\r\n  <link rel=\"stylesheet\" href=\"style.css\" type=\"text\/css\">\r\n  <script type=\"text\/javascript\" src=\"script.js\"><\/script>\r\n<\/head>\r\n\r\n<body>\r\n<\/body>\r\n\r\n<\/html>"
+		]
+	}
+}
