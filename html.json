@@ -9,4 +9,17 @@
 		"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n  <meta charset=\"utf-8\" \/>\r\n  <title>Page Title<\/title>\r\n  <link rel=\"stylesheet\" href=\"style.css\" type=\"text\/css\">\r\n  <script type=\"text\/javascript\" src=\"script.js\"><\/script>\r\n<\/head>\r\n\r\n<body>\r\n<\/body>\r\n\r\n<\/html>"
 		]
 	}
+//Ejemplo de Emmet
+// #page>div.logo+ul#navigation>li*5>a{Item $}
+// 	<div id="page">
+//     <div class="logo"></div>
+//     <ul id="navigation">
+//         <li><a href="">Item 1</a></li>
+//         <li><a href="">Item 2</a></li>
+//         <li><a href="">Item 3</a></li>
+//         <li><a href="">Item 4</a></li>
+//         <li><a href="">Item 5</a></li>
+//     </ul>
+// </div>
+
 }
