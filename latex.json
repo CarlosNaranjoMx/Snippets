@@ -76,7 +76,7 @@
 	,"Paquete Imagen": {
 		"prefix": "pimagen", 
 		"body": [
-			"\\usepackage{graphicx}"
+			"\\usepackage{graphicx}\n\\usepackage{float}"
 		]
 	}
 	,"Imagen": {
