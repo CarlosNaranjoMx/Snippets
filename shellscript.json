@@ -1,0 +1,64 @@
+{
+	// escapar parentesis y espacios
+	// xargs para concatenar argumentos
+
+	//**************(Indice)**************//
+	//**************([1]Start)**************//
+	//**************([2]Fors)**************//
+	//**************([3]Acceso al Arreglo)**************//
+	//**************([4]Comandos)**************//
+	
+	//**************([1]Start)**************//
+	"start": {
+		"prefix": "start", 
+		"body": [
+		"#!/bin/bash"
+		]
+	}
+	//**************([2]Fors)**************//
+	,"for": {
+		"prefix": "for", 
+		"body": [
+		"for i in `seq ${1:inicio} ${2:fin}`\ndo\n$3\ndone"
+		]
+	}
+	//**************(Concatenar cadenas)**************//
+	//**************([3]Acceso al Arreglo)**************//
+	//bash
+	//declaracion nombre=()
+	//en los for ${arr[*]}
+	,"arreglo": {
+		"prefix": "arreglo", 
+		"body": [
+		"#${1:nombre}[${2:indice}]"
+		]
+	}
+	//**************([4]Comandos)**************//
+	//mostrar los programas instalados
+	,"dpkg": {
+		"prefix": "dpkg", 
+		"body": [
+		"dpkg --list"
+		]
+	}
+	//desinstalar un programa
+	,"premove": {
+		"prefix": "premove", 
+		"body": [
+		"sudo apt --purge remove ${1:name}"  
+		]
+	}
+
+	//**************([5]Instalation-User)**************//
+	,"pip3install--user": {
+		"prefix": "pip3install--user", 
+		"body": [
+		"pip3 install --user ${1:meson}"
+		]
+	}
+
+	//**************(Dir LInux)**************//
+	//etc/enviroment - variables de entorno
+	//opt - paquetes de instalacion 
+	//usr/lib - paquetes de instalacion
+}

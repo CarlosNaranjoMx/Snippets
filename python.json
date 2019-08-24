@@ -1,0 +1,196 @@
+{
+	//inclusion de init
+	//uso de excepciones
+	//parametros en las funciones
+	//clases
+	//diccionarios como args
+	//**************(Indice)**************//
+	//**************([1]Parseo,Parse)**************//
+	//**************([2]Diccionarios,Dictionary)**************//
+	//**************([3]Comments)**************//
+	//**************([4]Prints,Imprimir)**************//
+	//**************([5]Enumerate,Numeradores)**************//
+	//**************([6]Clases,Class)**************//
+	//**************([7]Excepciones,Exeptions)**************//
+	//**************([8]Separador,Separate)**************//
+	//**************([9]Listas,List)**************//
+	//**************([10]Funciones,Functions)**************//
+	//**************([11]Expresiones Regulares, Regular Expresions)**************//
+	//**************([12]Random)**************//
+	//**************([13]Input)**************//
+	//**************([14]Main)**************//
+	//**************([15]Paquetes)**************//
+	//**************([1]Parseo,Parse)**************//
+	//mejor usar round que int
+	//str.replace(cad1,cad2)
+	//cadena.upper() - mayusculas
+	//cadena.lower() -minusculas
+	
+	//**************([2]Diccionarios,Dictionary)**************//
+	// condicion booleana
+	// lectura y escritura con []
+	//escritura: como dic[llave]=valor
+	"Diccionario": {
+		"prefix": "in",
+		"body": [
+		"${1:llave} in ${2:diccionario}"
+	]
+}
+//**************([3]Comments)**************//
+	//function comment:
+	//descripcion
+	//:param var:
+	// :var:
+	//:return:
+	,"Function comment": {
+		"prefix": "fcomment",
+		"body": [
+		"\"\"\"\n$1\n\"\"\""
+		]
+	}
+	,"cparam": {
+		"prefix": "cparam", 
+		"body": [
+		":param $1:"
+		]
+	}
+	,"creturn": {
+		"prefix": "creturn", 
+		"body": [
+		":return:"
+	]
+}
+//**************([4]Prints,Imprimir)**************//
+	// impresion con formato
+	,"fprint": {
+		"prefix": "fprint",
+		"body": [
+		"print('${1:cadena}{}'.format(${2:variable}))"
+	]
+}
+//**************([5]Enumerate,Numeradores)**************//
+	// ejemplo enumerate inicia los indices e i
+	// for lett, i in enumerate(map(chr,range(65,91)),0):
+	//**************(Numpy)**************//
+	,"pkg numpy": {
+		"prefix": "pnumpy", 
+		"body": [
+		"import numpy as np"
+		]
+	}
+	//np.array([])
+	//np.reshape(n,(3,1))
+	//np.matrix(matriz)
+	//np.linalg.inv(matriz) inversa
+	//np.dot(a,b) multiplicacion de matrices a.dot(b)
+	//np.linalg.det(mtz) determinante
+	//apply functions:
+	// def f(x): return int(x)
+    // vf = np.vectorize(f)
+	// arinv=vf(arinv)
+	// arr.ravel() - aplanado 
+	
+	//**************([6]Clases,Class)**************//
+	// import Nombre del archivo.Nombre de la clase
+	// los imports de archivos ejecutan primero todo el archivo
+	// solo guardar las cosas en funciones evita que se ejecute codigo
+	// def __str__(self): representacion
+
+	// usar la notacion de from  (nombre de la clase) import * 
+	// NO METER FUNCIONES EN LAS CLASES
+	//MODOTODOCLASE, self.function en el constructor, convenciones de letras
+
+	//hacerlo en clases separadas hara que metas mas parametros a tus funciones
+	,"Init": {
+		"prefix": "init", 
+		"body": [
+		"def __init__(self$1):\n    $2"
+		]
+	}
+
+	,"Str": {
+		"prefix": "cstr", 
+		"body": [
+		"def __str__(self):\n    $1"
+		]
+	}
+	,"String class": {
+		"prefix": "sclass", 
+		"body": [
+			"class $1():\r\n    def __init__(self,$3):\r\n    \"\"\"\r\n    $2\r\n    \"\"\"\r\n        self.$4 = $4\r\n        self.n = len(mensaje)\r\n\r\n    def __str__(self):\r\n        return $5"
+		]
+	}
+	
+	//**************([7]Excepciones,Exeptions)**************//
+	//un except(ex1,ex2) si es el hijo de la excepcion jala
+	//except ex1 as err: fprint
+	//creacion: Exception init, expresion, mensaje
+	//raice lanzar excepcion
+	
+	//**************([8]Separador,Separate)**************//
+
+	,"Separador": {
+		"prefix": "separador", 
+		"body": [
+		"##### $1 #####"
+		]
+	}
+
+	//**************([9]Listas,List)**************//
+	// list comprension, aplica funcion y condicional a los elementos
+	// [expression(i) for i in old_list if filter(i)]
+	
+	//**************([10]Funciones,Functions)**************//
+	// f = lamda t: t**2
+	// list comprension, map
+	//fromiter, vectorize
+	// parametros en funciones
+	//valores por defecto en funciones
+	
+	//**************([11]Expresiones Regulares, Regular Expresions)**************//
+	//re.compile() - creacion de expresion(findall):
+	//match,search,finditer (objetos de coincidencia)
+	//split() division del texto
+	//sub() replaza la expresion regular con otro texto
+	//subn()
+	//? cero o una
+	,"pkg regular": {
+		"prefix": "pregular", 
+		"body": [
+		"import re"
+		]
+	}
+	
+	//**************([12]Random)**************//
+	,"random": {
+		"prefix": "random", 
+		"body": [
+		"random.randint(0,5)"
+		]
+	}
+
+	//**************([13]Input)**************//
+	,"input": {
+		"prefix": "input", 
+		"body": [
+		"$1 = int(input(\"$2\"))"
+		]
+	}
+	//**************([14]Main)**************//
+	,"main": {
+		"prefix": "main", 
+		"body": [
+		"if __name__ == \"__main__\":"
+		]
+	}
+	//**************([15]Paquetes)**************//
+	// importar clases para que esten a nivel de paquete
+
+	//configuracion de from package import *
+	,"all": {
+		"prefix": "all", 
+		"body": [
+		"__all__ = ['$1']"
+		]
+	}
+}

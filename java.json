@@ -1,0 +1,394 @@
+{
+	//**************(JAVA)**************//
+	//constructores, getters, 
+	//atributos dibujo general, atributo acciones
+	//publicos operaciones (interfaces solo mantienen estos)
+	//privados azucar sintactica de operaciones
+	//privados, efectos no necesarios para que funcione
+
+	//metodos staticos, que funcionan siempre (sin el constructor)
+	//facil trabajar con ellos dentro de clases
+	
+	//metodos con estructura como de clase
+	//metodos con algunos resultados de Ejemplo
+	
+	//transformar getters y setters en otros metodos como isEmpty()
+	
+	//(1) lectura de algoritmos, preparacion de variables, inicio de algoritmo
+	//(2) tratar de entender las condiciones de los if's
+	
+	//**************(Indice)**************//
+	//**************([1]Comentarios)**************//
+	//**************([2]Imports)**************//
+	//**************([3]Clases)**************//
+	//**************([4]Funciones)**************//
+	//***************([5]Prints)***************//
+	//***************([6]Excepciones,Exeptions)***************//
+	//***************([7]Hashes/Mapas)***************//
+	//***************([8]Hilos)***************//
+	//**************([9]Reader and writer)**************//
+	//**************([10]String)**************//
+	//**************([11]Integer-String,3formas)**************//
+	//**************([12]List)**************//
+	//**************([13]Random)**************//
+	//**************([14]Concurrentes)**************//
+	//**************([15]Threads)**************//
+	//**************([16]Locks)**************//
+	//**************([17]Executor)**************//
+	//**************([18]Test junit)**************//
+	//**************([19]Oracle sql)**************//
+	//**************([20]Lambda expresions)**************//
+	//**************([21]Algoritmos)**************//
+	//**************([22]Matematicas)**************//
+	//**************([23]Data Struct)**************//
+	//**************([24]Java fx)**************//
+	
+	//***************([1]Comentarios)***************//
+	"Comentario Multilinea con Asterisco": {
+		"prefix": "comast",
+		"body": [
+			"/* $1 */"
+		]
+	}
+	,"Acute": {
+		"prefix": "acute",
+		"body": [
+		"&$1acute;$2"
+		]
+	}
+	,"Java Doc": {
+		"prefix": "doc", 
+		"body": [
+		"/**",
+		" * $1",
+		" */"
+		]
+	}
+	//***************([2]Imports)***************//
+	,"javautil": {
+		"prefix": "util", 
+		"body": [
+		"import java.util.$1;"
+		]
+	}
+
+	//***************([3]Clases)***************//
+	//Clases Anidadas
+	// estaticas y no estatias
+	//no estaticas internas tienen acceso a todo
+	// se acceden con punto en la externa A.B
+	//internas de metodo(?)
+	//internas anonimas
+	
+	,"Class": {
+		"prefix": "class", 
+		"body": [
+		"public class $1{ \n  $2\n}"
+		]
+	}
+	,"Start con Constructor": {
+		"prefix": "start", 
+		"body": [
+		" \/** @author Naranjo Robledo Carlos *\/ \r\npublic class {\r\n    \/**\r\n     * $4\r\n     *\/\r\n    $1(){\r\n        $2\r\n    }$3\r\n    \r\n}"
+		]
+	}
+	,"Main": {
+		"prefix": "main", 
+		"body": [
+		"public static void main(String[] args){",
+			"$1",
+		"}"
+		]
+	}
+	//syntactic sugars
+	//create class whit new sin nombre
+	,"nclass": {
+		"prefix": "nclass", 
+		"body": [
+		"new ${1:class}${2:<>}($3){$4}"
+		]
+	}
+	//create class
+	,"lclass": {
+		"prefix": "lclass", 
+		"body": [
+		" ${1:nameclass} ${2:name} = () -> {}; "
+		]
+	}
+	//***************([4]Funciones)***************//
+	,"Boolean": {
+		"prefix": "fboolean", 
+		"body": [
+		"boolean $1(){\r\n    return $2;\r\n}"
+		]
+	}
+	//***************([5]Prints)***************//
+	,"Print": {
+		"prefix": "print", 
+		"body": [
+		"System.out.println($1);"
+		]
+	}
+	,"Print sin espacios": {
+		"prefix": "print2", 
+		"body": [
+		"System.out.print($1);"
+		]
+	}
+	//***************([6]Excepciones,Exeptions)***************//
+	,"Exception": {
+		"prefix": "ilegalargument", 
+		"body": [
+			"throw new IllegalArgumentException(\"$1\");"
+		]
+	}
+	,"ftry": {
+		"prefix": "ftry", 
+		"body": [
+		"try {\r\n                \r\n            } catch (Exception e) {\r\n            \r\n            }finally{\r\n                \r\n            }"
+		]
+	}
+	//NOTACION try(){}catch(){}
+	//***************([7]Hashes/Mapas)***************//
+	//paquete de map
+	,"pmap ": {
+		"prefix": "pmap ", 
+		"body": [
+		"import java.util.Map;\nimport java.util.HashMap;"
+		]
+	}
+	,"Mapa": {
+		"prefix": "map", 
+		"body": [
+		"Map<${1:tipo}> ${2:nombre} = new HashMap<>();"
+		]
+	}
+	,"Put": {
+		"prefix": "put", 
+		"body": [
+		"$1.put($2,$3)"
+		]
+	}
+	,"Map": {
+		"prefix": "containsKey", 
+		"body": [
+		"${1:nombre}.containsKey(${2:llave})"
+		]
+	}
+	//***************([8]Hilos)***************//
+	,"Runnable": {
+		"prefix": "runnable", 
+		"body": [
+		"\/**\r\n * $1\r\n *\/\r\npublic class $1 implements Runnable{\r\n    \r\n    @Override\r\n    public void run() {\r\n\r\n    }\r\n   \r\n}"
+		]
+	}
+	//**************([9]Reader and writer)**************//
+	,"Paquete read": {
+		"prefix": "pread", 
+		"body": [
+		"import java.io.BufferedReader;\nimport java.io.FileReader;\n${1:import java.io.IOException;}"
+		]
+	}
+	,"Paquete write": {
+		"prefix": "pwrite", 
+		"body": [
+		"import java.io.BufferedWriter; \n import java.io.FileWriter; \n ${1:import java.io.IOException;}"
+		]
+	}
+	,"Reader": {
+		"prefix": "read", 
+		"body": [
+		"BufferedReader reader;\r\ntry {\r\n    reader = new BufferedReader(new FileReader(\r\n            \"$1\"));\r\n    String line = reader.readLine();\r\n    while (line != null) {\r\n        System.out.println(line);\r\n        \/\/ read next line\r\n        line = reader.readLine();\r\n    }\r\n    reader.close();\r\n} catch (IOException e) {\r\n    e.printStackTrace();\r\n}"
+		]
+	}
+	//llenado de un arreglo de acuerdo a un separador
+	,"Split": {
+		"prefix": "split", 
+		"body": [
+			"String[]${1:nombre}=${2:string}.split($3)${4:;}"
+		]
+	}
+	//**************([10]String)**************//
+	,"String-Int": {
+		"prefix": "strint", 
+		"body": [
+			"Integer.parseInt($1)${2:;}"
+		]
+	}
+	//s.toCharArray()
+	//**************([11]Integer-String,3formas)**************//
+	,"Int-String": {
+		"prefix": "intstr", 
+		"body": [
+		"$1+\"\"${2:;}"
+		]
+	}
+	//**************([12]List)**************//
+	,"Lisr": {
+		"prefix": "plist", 
+		"body": [
+		"import java.util.LinkedList;"
+	]
+}
+,"List": {
+	"prefix": "list", 
+	"body": [
+		"LinkedList<$1> $2 = new LinkedList<>();"
+	]
+}
+//**************([13]Random)**************//
+	,"Pkg Random": {
+		"prefix": "prandom", 
+		"body": [
+		"import java.util.Random;"
+		]
+	}
+	//nextDouble [0,1]
+	//nextInt [0,limite]
+	,"rint": {
+		"prefix": "rint", 
+		"body": [
+			"Random rgenerator = new Random();\nrgenerator.nextInt(${1:limite});"
+		]
+	}
+	//**************([14]Concurrentes)**************//
+	,"pconcurrent": {
+		"prefix": "pconcurrent", 
+		"body": [
+			"import java.util.concurrent.*;"
+		]
+	}
+	,"synchronized": {
+		"prefix": "synchronized", 
+		"body": [
+			"public synchronized ${1:name} (){\n$1\n}"
+		]
+	}
+	//**************([15]Threads)**************//
+	//extender/implementar t r y sobreescribir el metodo run
+	// no se ejecuta indefinidamente
+	// run no es un metodo estatico
+	//new Thread (() -> addProc(d)).start();
+	// long
+	
+	//creas un hilo con un objeto runnable y le haces run
+	//modificar el objeto sera modificar el hilo
+	
+	//con this podemos ejecutar algun metodo del objeto en lugar de run()
+	,"Threadid": {
+		"prefix": "idthread", 
+		"body": [
+			"Thread.currentThread().getId();"
+		]
+	}
+	,"Sleep": {
+		"prefix": "sleep", 
+		"body": [
+		"Thread.sleep($1);"
+		]
+	}
+	,"pkg semaphore": {
+		"prefix": "psemaphore", 
+		"body": [
+		"import java.util.concurrent.Semaphore;"
+		]
+	}
+	//**************([16]Locks)**************//
+	,"pkg locks": {
+		"prefix": "plocks", 
+		"body": [
+			"import java.util.concurrent.locks.*;"
+		]
+	}
+	//**************([17]Executor)**************//
+
+	//create runnable, and executor and submit, shutdown
+	,"executor": {
+		"prefix": "executor", 
+		"body": [
+		"ExecutorService executorService = Executors.newSingleThreadExecutor();"
+		]
+	}
+	,"submit": {
+		"prefix": "submit", 
+		"body": [
+		"executorService.submit(${1:name});"
+		]
+	}
+
+	//promise COmpetableFuture
+	//Thread.sleep() ?
+	// lock.lock();
+	// try{}catch(){}finally{lock.unlock();}
+	
+	//**************([18]Test junit)**************//
+	// import org.junit.Test;
+	// import org.junit.Assert;
+	// public class AppTest {
+    // 	@Test
+    // 	public void testApp() {
+    //     	Assert.assertTrue( true );
+    // 	}
+	// }
+
+	//**************([19]Oracle sql)**************//
+	//CRUD
+	,"psql": {
+		"prefix": "psql", 
+		"body": [
+		"import java.sql.DriverManager;\r\nimport java.sql.Connection;\r\nimport java.sql.SQLException;"
+		]
+	}
+	//**************([20]Lambda expresions)**************//
+	//foreach aplly function list
+	,"flist": {
+		"prefix": "flist", 
+		"body": [
+		"${1:list}.forEach(${2:function});"
+		]
+	}
+	//use with a comparator, neg, 0, o positivo
+
+	//**************([21]Algoritmos)**************//
+	,"leetcode": {
+		"prefix": "leetcode", 
+		"body": [
+		"public class Solution{\r\n    \r\n    public int ${1:function}(int x) {\r\n        int r1 = 0;\r\n        int result = r1;\r\n        return result;\r\n    }\r\n\r\n    public static void main(String[] args){\r\n        int input = 123;\r\n        System.out.println(new Solution().${1:funtion}(input));\r\n    }\r\n}"
+		]
+	}
+	//**************([22]Matematicas)**************//
+	// comparar el resultado con el anterior
+	,"techo": {
+		"prefix": "techo", 
+		"body": [
+		"Math.ceil($1)"
+		]
+	}
+	//**************([23]Data Struct)**************//
+	,"ppqueue": {
+		"prefix": "ppqueue", 
+		"body": [
+		"import java.util.PriorityQueue;"
+		]
+	}
+	,"iqueue": {
+		"prefix": "iqueue", 
+		"body": [
+		"${1:name}.offer($2)"
+		]
+	}
+	,"rqueue": {
+		"prefix": "rqueue", 
+		"body": [
+		"${1:name}.poll()"
+		]
+	}
+	,"minheap": {
+		"prefix": "minheap", 
+		"body": [
+		"PriorityQueue<Integer> minHeap = new PriorityQueue<>((x, y) -> x - y);"
+		]
+	}
+	//**************([24]Java fx)**************//
+
+}

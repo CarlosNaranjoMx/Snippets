@@ -1,0 +1,68 @@
+{
+	//***************(Snippets de Snippets)***************//
+	"Snippet": {
+		"prefix": "script",
+		"body": [
+			",\"${1:Nombre}\": {\n	\"prefix\": \"$1\", \n	\"body\": [\n	\"$2\"\n	]\n}"
+		]
+
+	,"Snippet2": {
+		//init script
+		"prefix": "iscript", 
+		"body": [
+			"\"${1:Nombre}\": {",
+				"	\"prefix\": \"$2\", ",
+				"	\"body\": [",
+				"	\"$3\""
+				"	]",
+				"}"
+		]
+	}
+	,"pesos": {
+		"prefix": "pesos", 
+		"body": [
+		"${$1:$2}"
+		]
+	}
+	,"salto": {
+		"prefix": "salto", 
+		"body": [
+		"\\n$$1\\n"
+		]
+	}
+	,"llsalto": {
+		"prefix": "llsalto", 
+		"body": [
+		"{\\n$$1\\n}"
+		]
+	}
+	,"4barras": {
+		"prefix": "4barras", 
+		"body": [
+		"\\\\\\\\"
+		]
+	}
+	//***************(Separadores)***************//
+	,"comentario separador": {
+		"prefix": "separador", 
+		"body": [
+		"//***************($1)***************//"
+		]
+	}
+	,"Fin separador": {
+		//final separador
+		"prefix": "fseparador", 
+		"body": [
+		"//**********************************$1//"
+		]
+	}
+	//**************(Opcionales)**************//
+	,"Opcional": {
+		"prefix": "opcional", 
+		"body": [
+		"${1:pesos}{${2:numero}:$3}"
+		]
+	}
+	//**************(LATEX)**************//
+
+}

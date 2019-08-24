@@ -1,0 +1,142 @@
+//**************(Indice)**************//
+//**************([1]Print,Imprimir)**************//
+//**************([2]Archivos iniciales)**************//
+//**************([3]Scaner,Entrada)**************//
+//**************([4]Arreglos)**************//
+//**************([5]Cadenas)**************//
+//**************([6]Llamadas al sistema)**************//
+//**************([7]Sistema de Archivos)**************//
+//**************([8]Include)**************//
+//**************([9]Struct)**************//
+//**************([10]Threads)**************//
+//**************([11]Apuntadores)**************//
+//**************([12]FUnciones)**************//
+//**************([13]Malloc)**************//
+//**************([14]Concurrente)**************//
+//**************([15]Casting)**************//
+//**************([16]control)**************//
+{
+	//**************([1]Print,Imprimir)**************//
+	"Printf": {
+		"prefix": "printf", 
+		"body": [
+		"printf(\"$1\"${2:,}$3)${4:;}"
+		]
+	}
+	,"Fprmat print": {
+		"prefix": "fprint", 
+		"body": [
+		"printf(\"$1%d\\n\",$2);"
+	]
+}
+//**************([2]Archivos iniciales)**************//
+	,"Start": {
+		"prefix": "start", 
+		"body": [
+		"#include <stdio.h> \n int main(){ \n     return 0; \n}"
+	]
+}
+//**************([3]Scaner,Entrada)**************//
+	,"Entrada Escaner": {
+		"prefix": "entrada", 
+		"body": [
+		"gets($1);"
+		]
+	}
+	// se deben declarar antes las variables
+	//primero no comas, despues todo comas
+	// %s- string
+	// %d - entero
+	,"Scaner": {
+		"prefix": "scaner", 
+		"body": [
+		"scanf(\"%${1:s}\",${2:str});"
+		]
+	}
+	,"Scaner expresion regular": {
+		"prefix": "", 
+		"body": [
+			""
+		]
+	}
+	//**************([4]Arreglos)**************//
+	//tam de 100
+	//int arr[2] = {0,1};
+	,"Arreglo": {
+		"prefix": "achar", 
+		"body": [
+		"char ${1:nombre} [${2:tam}];"
+		]
+	}
+	//double array[5] = {};
+	//**************([5]Cadenas)**************//
+	,"paquete cadenas": {
+		"prefix": "pstring", 
+		"body": [
+		"#include<string.h>"
+		]
+	}
+	,"Compare": {
+		"prefix": "cstr", 
+		"body": [
+			"strcmp(${1:nombre1},${2:nombre2})${3:;}"
+		]
+	}
+	//**************([6]Llamadas al sistema)**************//
+	,"paquete llamada al sistema": {
+		"prefix": "psistema", 
+		"body": [
+			"#include<sys/syscall.h>"
+		]
+	}
+	//**************([7]Sistema de Archivos)**************//
+	,"p sistema de archivos": {
+		"prefix": "parchivos", 
+		"body": [
+			"#include<conio.h>\n#include<dir.h>"
+		]
+	}
+	//**************([8]Include)**************//
+	,"Include": {
+		"prefix": "include", 
+		"body": [
+		"#include $1"
+		]
+	}
+	//**************([9]Struct)**************//
+	//creacion como un arreglo de cosas
+	//**************([10]Threads)**************//
+	//bandera al compilador -pthread
+	,"pkg thread": {
+		"prefix": "pthread", 
+		"body": [
+		"#include <pthread.h>"
+		]
+	}
+	//**************([11]Apuntadores)**************//
+	// volverlo apuntador &
+	
+	//**************([12]FUnciones)**************//
+	// espera un apuntador function(struct algo *cosa) 
+
+	//**************([13]Malloc)**************//
+	,"pkg malloc": {
+		"prefix": "pmalloc", 
+		"body": [
+		"#include <stdlib.h>"
+		]
+	}
+
+	//**************([14]Concurrente)**************//
+
+	//**************([15]Casting)**************//
+	//strtol(cadena,parte2,numerode enteros)
+
+	//**************([16]control)**************//
+	,"elseif": {
+		"prefix": "elseif", 
+		"body": [
+		"}else if(){"
+		]
+	}
+}

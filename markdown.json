@@ -1,0 +1,83 @@
+{
+	//**************(Indice)**************//
+	//**************([1]Basics)**************//
+	//**************([2]Notes)**************//
+	//**************([3] INdice)**************//
+
+
+	//**************([1]Basics)**************//
+	"Block": {
+		"prefix": "block", 
+		"body": [
+		"~~~\n$1\n~~~"
+		]
+	}
+	,"startmateria": {
+		"prefix": "start", 
+		"body": [
+		"- [$1](#1)\r\n- [glosario](#glosario)\r\n\r\n## $1\r\n\r\n## glosario\r\n\r\n------------------------------------------------------"
+		]
+	}
+	,"code": {
+		"prefix": "code", 
+		"body": [
+		"`$1`"
+		]
+	}
+	,"lcode": {
+		"prefix": "lcode", 
+		"body": [
+		"```$1\n$2\n```"
+		]
+	}
+	,"image": {
+		"prefix": "image", 
+		"body": [
+		"![](${1:image})"
+		]
+	}
+	,"sfont": {
+		"prefix": "sfont", 
+		"body": [
+		"_$1_"
+		]
+	}
+	,"tfont": {
+		"prefix": "tfont", 
+		"body": [
+		"~~$1~~"
+		]
+	}
+	,"doble": {
+		"prefix": "doble", 
+		"body": [
+		"##"
+		]
+	}
+	,"triple": {
+		"prefix": "triple", 
+		"body": [
+		"###"
+		]
+	}
+	//**************([2]Notes)**************//
+	,"startnote": {
+		"prefix": "startnote", 
+		"body": [
+		"# ${1:titulo}\n## Indice\n "
+		]
+	}
+	,"separator": {
+		"prefix": "separator", 
+		"body": [
+		"------------------------------------------------------"
+		]
+	}
+	//**************([3] INdice)**************//
+	,"indice": {
+		"prefix": "indice", 
+		"body": [
+		"- [${1:titulo}](#${1:etiqueta})"
+		]
+	}
+}

@@ -1,0 +1,436 @@
+{
+	//**************(LATEX)**************//
+	// caracteres reservados: $ _ & #
+	//***************([1]Empezar Documento)***************//
+	
+	//***************([1]Empezar Documento)***************//
+	//***************([2]Imagenes)***************//
+	//***************([3]Bibliografía)***************//
+	//***************([4]Listings)***************//
+	//***************([5]Enumerate)***************//
+	//***************([6]Tipografías)***************//
+	//***************([7]Comandos de Linux)***************//
+	//***************([8]Matematicas)***************//
+	//***************([9]Comandos tabular)***************//
+	//***************([10]Section)***************//
+	//**************([11]Comentarios)**************//
+	//**************([12]Enumerate)**************//
+	//**************([13]Center)**************//
+	//**************([14]Paginas)**************//
+	//**************([15]Ecuaciones)**************//
+	//**************([16]Glosario)**************//
+	//**************([17]Beamer)**************//
+
+	"InputEnc": { 
+		"prefix": "inputenc",
+		"body": [
+			"\\usepackage[english]{babel}",
+			"\\usepackage[utf8x]{inputenc}",
+			"\\usepackage[T1]{fontenc}",
+			//muestra los metadatos en español
+			"\\usepackage[spanish]{babel}"
+		]
+	} 
+	,"documentclass": {
+		"prefix": "documentclass",
+		"body": [
+			"\\documentclass[a4paper]{article}"
+		]
+	}
+	,"Start": {
+		"prefix": "start_article",
+		"body": [
+			"\\documentclass[12pt]{article}",
+			"\\usepackage{amsfonts}",
+			"\\usepackage{fancyhdr}",
+			"\\usepackage{comment}",
+			"\\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2.2cm, right=2.2cm]{geometry}",
+			"\\usepackage{times}",
+			"\\usepackage{amsmath}",
+			"\\usepackage{changepage}",
+			"\\usepackage{amssymb}",
+			"\\usepackage{graphicx}"
+		]
+	}
+	,"Title": {
+		"prefix": "title",
+		"body": [
+			"\\title{${1:title}}\r\n\\author{Naranjo Robledo Carlos $2}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n$0\r\n\\end{document}"
+		]
+	}
+	,"Article": {
+		"prefix": "article", 
+		"body": [
+			"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\end{document}"
+		]
+	}
+	,"article2": {
+		"prefix": "article2", 
+		"body": [
+		"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\usepackage[colorlinks=true, allcolors=blue]{hyperref}\r\n\r\n\\title{$1}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\begin{thebibliography}{$3}\r\n\\bibitem{$4}\r\n\r\n\\end{thebibliography}\r\n\r\n\\end{document}"
+		]
+	}
+	//***************([2]Imagenes)***************//
+	// se supone que h!
+	// h here, t top, b bottom, page p, ! ignore, h1=H
+	,"Paquete Imagen": {
+		"prefix": "pimagen", 
+		"body": [
+			"\\usepackage{graphicx}\n\\usepackage{float}"
+		]
+	}
+	,"Imagen": {
+		"prefix": "imagen",
+		"body": [
+			"\\begin{figure}[h]\r\n\\centering\r\n\\includegraphics[width=1\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}${2:descripcion}}\r\n\\end{figure}"
+		]
+	}
+	,"dirimages": {
+		"prefix": "dirimages", 
+		"body": [
+		"\\graphicspath{{images/}}"
+		]
+	}
+	,"Contenido": {
+		"prefix": "indice",
+		"body": [
+			"\\tableofcontents"
+		]
+	}
+	//***************([3]Bibliografía)***************//
+	,"Bibliografia": {
+		"prefix": "bibliografia",
+		"body": [
+			"\\begin{thebibliography}{${1:n cites}}\r\n\\bibitem{${2:cite}}\r\n$0\r\n\\end{thebibliography}"
+		]
+	}
+	,"Paquete referencias": {
+		"prefix": "preferencias", 
+		"body": [
+			"\\usepackage[colorlinks=true, allcolors=blue]{hyperref}"
+		]
+	}
+	,"Nuevo Comando": {
+		"prefix": "newcommand", 
+		"body": [
+			"\\newcommand{${1:name}}{\r\n $0 \r\n}"
+		]
+	}
+	,"url": {
+		"prefix": "url", 
+		"body": [
+		"\\url{$1}"
+		]
+	}
+	,"BIbitem": {
+		"prefix": "bitem", 
+		"body": [
+			"\\bibitem{$1} \\url{$2}"
+		]
+	}
+	,"Cite": {
+		"prefix": "cite", 
+		"body": [
+			"\\cite[${1:pagina}]{$2}"
+		]
+	}
+	//***************([4]Listings)***************//
+	//nota crear el enlace duro para sincronizar el
+	//archivo de configuraciones de los listings
+	,"pcode": {
+		"prefix": "pcode", 
+		"body": [
+		"\\usepackage{listings}"
+		]
+	}
+	,"Color Code Style": {
+		"prefix": "p2code", 
+		"body": [
+			"\\usepackage{code_style}"
+		]
+	}
+	,"Example Code": {
+		"prefix": "ecode", 
+		"body": [
+			"\\begin{scriptsize}\r\n\\estilo${1:Lenguaje}\r\n\\begin{lstlisting}[\n    caption={${2:descripcion}},\n    label=lst:${3:lenguaje}code]\r\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
+		]
+	}
+	,"e2code": {
+		"prefix": "e2code", 
+		"body": [
+			"\\begin{scriptsize}\n\\begin{lstlisting}\n$0\r\n\\end{lstlisting}\r\n\\end{scriptsize}"
+			
+		]
+	}
+	//***************([5]Enumerate)***************//
+	,"Enumerate": {
+		"prefix": "enumerate", 
+		"body": [
+			"\\begin{enumerate}\r\n    $1\r\n\\end{enumerate}"
+		]
+	}
+	,"benumerate": {
+		"prefix": "benumerate", 
+		"body": [
+		"\\begin{enumerate}[($ \\\\bullet $)]\n    \n\\end{enumerate}"
+		]
+	}
+	,"Item code": {
+		"prefix": "icode", 
+		"body": [
+		"\\item \\texttt{$1}"
+		]
+	}
+	,"bfitem": {
+		"prefix": "bfitem", 
+		"body": [
+		"\\item \\textbf{$1}"
+		]
+	}
+	,"Enumeratec": {
+		"prefix": "cenumerate", 
+		"body": [
+			"\\begin{enumerate}[$1]\n$2\n\\end{enumerate}"
+		]
+	}
+	,"benumerate": {
+		"prefix": "benumerate", 
+		"body": [
+			"\\begin{enumerate}[$\bulet$]\n$1\nS\\end{enumerate}"
+		]
+	}
+	//***************([6]Tipografías)***************//
+	,"Black font": {
+		"prefix": "black", 
+		"body": [
+			"\\textbf{$0}"
+		]
+	}
+	,"black font": {
+		"prefix": "bf", 
+		"body": [
+			"\\textbf{$1}"
+		]
+	}
+	,"Texto tipo code": {
+		"prefix": "code", 
+		"body": [
+			"\\texttt{$1}"
+		]
+	}
+	,"tinclinada": {
+		"prefix": "tinclinada", 
+		"body": [
+			"\\textsl{$1}"
+		]
+	}
+	//***************([7]Comandos de Linux)***************//
+	,"Other comands": {
+		"prefix": "comandos", 
+		"body": [
+			"\\section{Comandos usados} \n \\begin{enumerate} \n    \\item $1 \n \\end{enumerate}"
+		]
+	}
+	,"Directorios": {
+		"prefix": "directorios", 
+		"body": [
+		"\\section{directorios} \n \\begin{enumerate} \n    \\item $1 \n \\end{enumerate}"
+	]
+}
+//***************([8]Matematicas)***************//
+	,"Math": {
+		"prefix": "math", 
+		"body": [
+		"$ $1 $"
+		]
+	}
+	,"Math center": {
+		"prefix": "cmath", 
+		"body": [
+		"$$ $1 $$"
+		]
+	}
+	,"Paquete math": {
+		"prefix": "pmath", 
+		"body": [
+		"\\usepackage{amsmath}"
+		]
+	}
+	,"Division": {
+		"prefix": "div", 
+		"body": [
+		"\\frac{$1}{$2}"
+		]
+	}
+	,"Exponente": {
+		"prefix": "exp", 
+		"body": [
+		"^{$1}"
+		]
+	}
+	,"Flecha": {
+		"prefix": "dflecha", 
+		"body": [
+		"\\Rightarrow"
+		]
+	}
+	// Segundo paquete de math
+	,"Paquete mas math": {
+		"prefix": "p2math", 
+		"body": [
+		"\\usepackage{amssymb}"
+		]
+	}
+	,"No flecha derecha": {
+		"prefix": "ndflecha", 
+		"body": [
+		"\\nRightarrow"
+		]
+	}
+	//fuentes de matematicas
+	,"Paquete Fuentes Matematicas": {
+		"prefix": "pmfonts", 
+		"body": [
+		"\\usepackage{amsfonts}"
+		]
+	}
+	,"Mathbb": {
+		"prefix": "mfont", 
+		"body": [
+		"\\mathbb{$1}"
+		]
+	}
+	,"llaves": {
+		"prefix": "llaves", 
+		"body": [
+			"\\{$1 \\\\}"
+		]
+	}
+	//***************([9]Comandos tabular)***************//
+	,"Import tabular": {
+		"prefix": "ptabular", 
+		"body": [
+		"\\usepackage{tabularx}"
+		]
+	}
+	,"Tabular": {
+		"prefix": "tabular", 
+		"body": [
+		"\\begin{tabular}{} \n$1 \\end{tabular}"
+		]
+	}
+	,"esacio en celdas": {
+		"prefix": "cespacio", 
+		"body": [
+		"\\parbox[t]{$1cm}{$2\\$3}"
+	]
+}
+//***************([10]Section)***************//
+,"Section": {
+	"prefix": "section", 
+	"body": [
+		"\\section{$1}\n$0"
+	]
+	}
+	,"Subsection": {
+		"prefix": "subsection", 
+		"body": [
+		"\\subsection{$1}"
+		]
+	}
+	,"Sububsection": {
+		"prefix": "sub2", 
+		"body": [
+		"\\subsubsection{$1}"
+		]
+	}
+	,"Subsubsection": {
+		"prefix": "sub3", 
+		"body": [
+		"\\subsubsection{$1}"
+	]
+}
+//**************([11]Comentarios)**************//
+	,"Separador": {
+		"prefix": "separador", 
+		"body": [
+			"%%%%%%%%%%%%%%%($1)%%%%%%%%%%%%%%%"
+		]
+	}
+	//**************([12]Enumerate)**************//
+	,"Pkg enumerate": {
+		"prefix": "penumerate", 
+		"body": [
+		"\\usepackage{enumerate}"
+		]
+	}
+	
+	
+	//**************([13]Center)**************//
+	,"right": {
+		"prefix": "right", 
+		"body": [
+		"\\begin{flushright}\n$1\n\\end{flushright}"
+		]
+	}
+	//**************([14]Paginas)**************//
+	,"pmargen": {
+		"prefix": "pmargen", 
+		"body": [
+		"\\usepackage[a4paper, total={6in, 8in}]{geometry}"
+		]
+	}
+
+	//**************([15]Ecuaciones)**************//
+	,"align": {
+		"prefix": "align", 
+		"body": [
+		"\\begin{align}\n$1\n\\end{align}"
+		]
+	}
+	,"equation": {
+		"prefix": "equation", 
+		"body": [
+		"\\begin{equation}\n$1\n\\end{equation}"
+		]
+	}
+	//**************([16]Glosario)**************//
+	,"pglossary": {
+		"prefix": "pglossary", 
+		"body": [
+		"\\usepackage{glossaries}"
+		]
+	}
+
+	,"nglosario": {
+		"prefix": "glosario", 
+		"body": [
+		"\\makeglossaries\n\\newglossaryentry{$1}{\n    name=$1,\ndescription={$2}\n}"
+		]
+	}
+
+	,"gcite": {
+		"prefix": "gcite", 
+		"body": [
+		"\\gls{$1}"
+		]
+	}
+
+	,"glosario": {
+		"prefix": "glosario", 
+		"body": [
+		"\\printglosaries"
+		]
+	}
+
+	//**************([17]Beamer)**************//
+	// frame to new presentation
+	// section to table of contents
+	,"frame": {
+		"prefix": "frame", 
+		"body": [
+		"\\begin{frame}{${1:titulo}\n$2\n\\end{frame}"
+		]
+	}
+
+}
