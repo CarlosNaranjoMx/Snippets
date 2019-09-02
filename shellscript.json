@@ -2,6 +2,7 @@
 	// escapar parentesis y espacios
 	// xargs para concatenar argumentos
 	// remove arguments shift
+	// guardar en variables y echo -n
 
 	//**************(Indice)**************//
 	//**************([1]Start)**************//
