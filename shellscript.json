@@ -41,6 +41,12 @@
 		"$($1)"
 		]
 	}
+	,"if": {
+		"prefix": "if", 
+		"body": [
+		"if [ $1 ] then;\r\n    $2\r\nfi"
+		]
+	}
 	//**************(Concatenar cadenas)**************//
 	//**************([3]Acceso al Arreglo)**************//
 	//bash
