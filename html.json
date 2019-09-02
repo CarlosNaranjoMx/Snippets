@@ -10,7 +10,12 @@
 		]
 	}
 //Ejemplo de Emmet
+<<<<<<< HEAD
 // #page>div.logo+ul#navigation>li*5>a{Item $}
+=======
+// gato o punto
+// etiqueta#page>div.logo+ul#navigation>li*5>a{Item $}
+>>>>>>> f573b1bbdbc0a76e6e8129a5b35a676325f1ed52
 // 	<div id="page">
 //     <div class="logo"></div>
 //     <ul id="navigation">

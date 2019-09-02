@@ -172,7 +172,11 @@
 	,"benumerate": {
 		"prefix": "benumerate", 
 		"body": [
+<<<<<<< HEAD
 		"\\begin{enumerate}[$ \\bullet $]\n    $1\n\\end{enumerate}"
+=======
+		"\\begin{enumerate}[($ \\\\bullet $)]\n    \n\\end{enumerate}"
+>>>>>>> f573b1bbdbc0a76e6e8129a5b35a676325f1ed52
 		]
 	}
 	,"Item code": {
