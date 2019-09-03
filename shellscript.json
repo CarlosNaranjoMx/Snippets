@@ -21,7 +21,13 @@
 	,"separator": {
 		"prefix": "separator", 
 		"body": [
-		"#################$2( $1 )$2#################"
+		"###$2( $1 )$2###$3"
+		]
+	}
+	,"idindice": {
+		"prefix": "idindice", 
+		"body": [
+		"<div id='$1' />"
 		]
 	}
 	,"for": {
