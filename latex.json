@@ -1,6 +1,6 @@
 {
 	//**************(LATEX)**************//
-	// caracteres reservados: $ _ & #
+	// caracteres reservados en latex: $ _ & #
 	//***************([1]Empezar Documento)***************//
 	
 	//***************([1]Empezar Documento)***************//
@@ -172,11 +172,7 @@
 	,"benumerate": {
 		"prefix": "benumerate", 
 		"body": [
-<<<<<<< HEAD
 		"\\begin{enumerate}[$ \\bullet $]\n    $1\n\\end{enumerate}"
-=======
-		"\\begin{enumerate}[($ \\\\bullet $)]\n    \n\\end{enumerate}"
->>>>>>> f573b1bbdbc0a76e6e8129a5b35a676325f1ed52
 		]
 	}
 	,"Item code": {
@@ -195,12 +191,6 @@
 		"prefix": "cenumerate", 
 		"body": [
 			"\\begin{enumerate}[$1]\n$2\n\\end{enumerate}"
-		]
-	}
-	,"benumerate": {
-		"prefix": "benumerate", 
-		"body": [
-			"\\begin{enumerate}[$\bulet$]\n$1\nS\\end{enumerate}"
 		]
 	}
 	//***************([6]Tipografías)***************//
