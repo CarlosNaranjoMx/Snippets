@@ -61,7 +61,7 @@
 	,"Article": {
 		"prefix": "article", 
 		"body": [
-			"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\title{${1:titulo}}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\end{document}"
+			"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\n\\usepackage{enumerate}\n\n\\title{${1:titulo}}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\end{document}"
 		]
 	}
 	,"article2": {
@@ -173,6 +173,12 @@
 		"prefix": "benumerate", 
 		"body": [
 		"\\begin{enumerate}[$ \\bullet $]\n    $1\n\\end{enumerate}"
+		]
+	}
+	,"renumerate": {
+		"prefix": "renumerate", 
+		"body": [
+		"\\begin{enumerate}[$ \\rightarrow $]\n    $1\n\\end{enumerate}"
 		]
 	}
 	,"Item code": {
