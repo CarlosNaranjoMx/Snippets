@@ -1,6 +1,7 @@
 {
 	//**************(LATEX)**************//
 	// caracteres reservados en latex: $ _ & #
+	// align siempre centra los bloques que encierras
 	//***************([1]Empezar Documento)***************//
 	
 	//***************([1]Empezar Documento)***************//
