@@ -67,6 +67,13 @@
 		"function $1 (){\n    $2\n}"
 		]
 	}
+	// no use this type of notation :(
+	// ,"function01": {
+	// 	"prefix": "function01", 
+	// 	"body": [
+	// 	"function $1(){ $2 }"
+	// 	]
+	// }
 	//**************(Concatenar cadenas)**************//
 	//**************([3]Acceso al Arreglo)**************//
 	//bash
