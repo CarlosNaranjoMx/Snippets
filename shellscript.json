@@ -61,6 +61,12 @@
 		"if [ $1 ] then;\r\n    $2\r\nfi"
 		]
 	}
+	,"function": {
+		"prefix": "function", 
+		"body": [
+		"function $1 (){\n    $2\n}"
+		]
+	}
 	//**************(Concatenar cadenas)**************//
 	//**************([3]Acceso al Arreglo)**************//
 	//bash
