@@ -4,6 +4,9 @@
 	// remove arguments shift
 	// guardar en variables y echo -n
 	// /root/.profile
+	// el cd en los scripts debe correrse con .
+	// use dpkg to install
+	// add-apt-repository ppa:kritalime/ppa
 
 	//**************(Indice)**************//
 	//**************([1]Start)**************//
@@ -37,6 +40,12 @@
 		"for i in `seq ${1:inicio} ${2:fin}`\ndo\n$3\ndone"
 		]
 	}
+	,"linefor": {
+			"prefix": "linefor", 
+			"body": [
+			"for i in $($1); do $2 ; done"
+			]
+		}
 	,"while": {
 		"prefix": "while", 
 		"body": [

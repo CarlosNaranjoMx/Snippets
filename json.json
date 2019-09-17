@@ -3,21 +3,23 @@
 	"Snippet": {
 		"prefix": "script",
 		"body": [
-			",\"${1:Nombre}\": {\n	\"prefix\": \"$1\", \n	\"body\": [\n	\"$2\"\n	]\n}"
-		]
-
-	,"Snippet2": {
-		//init script
-		"prefix": "iscript", 
-		"body": [
-			"\"${1:Nombre}\": {",
-				"	\"prefix\": \"$2\", ",
-				"	\"body\": [",
-				"	\"$3\""
-				"	]",
-				"}"
+			// ",\"${1:Nombre}\": {\n	\"prefix\": \"$1\", \n	\"body\": [\n	\"$2\"\n	]\n}"
+			",\"${1:Nombre}\": {\r\n\t\t\"prefix\": \"${1:Nombre}\", \r\n\t\t\"body\": [\r\n\t\t\"$2\"\r\n\t\t]\r\n\t}"
 		]
 	}
+	
+	// ,"Snippet2": {
+	// 	//init script
+	// 	"prefix": "iscript", 
+	// 	"body": [
+	// 		"\"${1:Nombre}\": {",
+	// 			"	\"prefix\": \"$2\", ",
+	// 			"	\"body\": [",
+	// 			"	\"$3\""
+	// 			"	]",
+	// 			"}"
+	// 	]
+	// }
 	,"pesos": {
 		"prefix": "pesos", 
 		"body": [
@@ -43,10 +45,10 @@
 		]
 	}
 	//***************(Separadores)***************//
-	,"comentario separador": {
+	,"separador": {
 		"prefix": "separador", 
 		"body": [
-		"//***************($1)***************//"
+		"//***$2($1)$2***$3//"
 		]
 	}
 	,"Fin separador": {

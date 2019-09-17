@@ -1,4 +1,14 @@
 {
+//******************************(Emmet tutorial)******************************//
+// creacion de una nueva etiqueta
+// <nombre>#<valor id>
+// uso del . para la clase
+// uso de la suma para uno en el mismo nivel
+// uso del * para varios
+// no usar gato para etiqueta por defecto
+// uso de : para algunas configuraciones de etiquetas
+
+
 	//**************(Indice)**************//
 	//**************([1]Start)**************//
 
