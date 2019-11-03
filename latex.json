@@ -83,7 +83,7 @@
 	,"Imagen": {
 		"prefix": "imagen",
 		"body": [
-			"\\begin{figure}[h]\r\n\\centering\r\n\\includegraphics[width=1\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}${2:descripcion}}\r\n\\end{figure}"
+			"\\begin{figure}[H]\r\n\\centering\r\n\\includegraphics[width=1\\textwidth]{${1:name}}\r\n\\caption{\\label{fig:frog}${2:descripcion}}\r\n\\end{figure}"
 		]
 	}
 	,"dirimages": {

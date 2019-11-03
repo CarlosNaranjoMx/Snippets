@@ -1,0 +1,56 @@
+{
+	//**************(Indice)**************//
+	//**************(1 Virtual Machine Configuration)**************//
+	//**************(2 Rolles)**************//
+	//**************(3 Adaptador de red)**************//
+	//**************(4 configure users)**************//
+	//**************(5 Functions)**************//
+
+	"separador": {
+		"prefix": "separador", 
+		"body": [
+		"#$2($1$3)#$2"
+		]
+	}
+	//**************(1 Virtual Machine Configuration)**************//
+	/**
+	Invoke-Command -vmname -usessl -filepath <ps1>
+	*/
+	// create hard disk
+	// create virtual machine
+	// start-vm -name <vm>
+	// listar los cmdlets de un modulo
+	// creacion de comdlets
+	// copy-vmfile
+
+	//certificados
+    //invoke-command -credential Domain01\User01
+    
+    //credentials
+    ,"credential": {
+        "prefix": "credential", 
+        "body": [
+        "$$user = \"$2Administrator\"\r\n$$vmname = \"$1\"\r\n$$password = convertto-securestring -string \"hola123.,\" -asplaintext -force\r\n$$credential = new-object pscredential ($$user,$$password)\r\n$$session = new-pssession -vmname $$vmname -credential $$credential\r\nInvoke-Command -session $session -FilePath $3"
+        ]
+    }
+	//**************(2 Rolles)**************//
+	//get-windowsfeature
+	//add-windowsfeature
+
+	//**************(3 Adaptador de red)**************//
+	// get-netadapter -physical
+	// get-netipaddress
+	// to change new-netipaddress
+	
+	//**************(4 configure users)**************//
+
+	//**************(5 Functions)**************//
+	,"pfunction": {
+		"prefix": "pfunction", 
+		"body": [
+		"function $1 {\n    param(\n        [Parameter(Mandatory=$True)][$2]$3\n    )\n}"
+		]
+    }
+    
+
+}
