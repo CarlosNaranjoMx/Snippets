@@ -2,7 +2,6 @@
 	//**************(LATEX)**************//
 	// caracteres reservados en latex: $ _ & #
 	// align siempre centra los bloques que encierras
-	//***************([1]Empezar Documento)***************//
 	
 	//***************([1]Empezar Documento)***************//
 	//***************([2]Imagenes)***************//
@@ -21,7 +20,8 @@
 	//**************([15]Ecuaciones)**************//
 	//**************([16]Glosario)**************//
 	//**************([17]Beamer)**************//
-
+	
+	//***************([1]Empezar Documento)***************//
 	"InputEnc": { 
 		"prefix": "inputenc",
 		"body": [
@@ -68,7 +68,7 @@
 	,"article2": {
 		"prefix": "article2", 
 		"body": [
-		"\\documentclass[a4paper]{article}\r\n\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\usepackage[colorlinks=true, allcolors=blue]{hyperref}\r\n\r\n\\title{$1}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\begin{thebibliography}{$3}\r\n\\bibitem{$4}\r\n\r\n\\end{thebibliography}\r\n\r\n\\end{document}"
+		"\\documentclass[a4paper]{article}\r\n\\usepackage[a4paper, total={6in, 8in}]{geometry}\r\n\\usepackage[english]{babel}\r\n\\usepackage[utf8x]{inputenc}\r\n\\usepackage[T1]{fontenc}\r\n\r\n\\usepackage[colorlinks=true, allcolors=blue]{hyperref}\r\n\r\n\\title{$1}\r\n\\author{Naranjo Robledo Carlos}\r\n\\date{}\r\n\r\n\\begin{document}\r\n\\maketitle\r\n\r\n\\tableofcontents\r\n\r\n\\section{$2}\r\n\r\n\\begin{thebibliography}{$3}\r\n\\bibitem{$4}\r\n\r\n\\end{thebibliography}\r\n\r\n\\end{document}"
 		]
 	}
 	//***************([2]Imagenes)***************//
